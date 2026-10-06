@@ -1,0 +1,22 @@
+# Python environment used for the study (Python 3.12; compatible with 3.10-3.13).
+# The MILP stages use PuLP with Gurobi if a licence is available and fall back
+# to the bundled CBC solver otherwise (both give the archived optima).
+python>=3.10,<3.13
+
+# core data stack
+pandas==2.2.3
+numpy==2.1.1
+pyarrow==20.0.0        # parquet I/O for all derived tables
+h3==4.5.0              # H3 v4 API (h3.latlng_to_cell) — do not "upgrade" to v3
+
+# scientific stack
+scipy==1.16.1          # cKDTree (grid cleanup), sparse Dijkstra (routing)
+shapely==2.0.6         # vector geometry for the routing network
+
+# optimization
+PuLP==3.3.2            # MILP front end
+# gurobipy / Gurobi 11.x — commercial; install only if you hold a licence.
+
+# visualization (figure stage only)
+matplotlib==3.10.0
+cartopy==0.25.0        # 110 m Natural Earth basemap; downloads its own maps
