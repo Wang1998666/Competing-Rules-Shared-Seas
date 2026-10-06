@@ -1,0 +1,14 @@
+{
+  "version": "v2",
+  "model": "M_BRI",
+  "budget_fraction": 0.2,
+  "fuel": "green_methanol",
+  "baseline": "M^G no-force",
+  "baseline_global_Mt": 100.43,
+  "bri_obj_Mt": 42.64,
+  "rule_obj_global_Mt": 42.64,
+  "MPC_global_pct": 57.54,
+  "n_ports_selected": 228,
+  "n_corridors_activated": 2352,
+  "bri_share_activated_pct": 100.0
+}

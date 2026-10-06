@@ -1,0 +1,30 @@
+{
+  "M_G": {
+    "n_selected_ports": 211,
+    "maximal_global_W_Mt": 100.43,
+    "maximal_bri_scope_W_Mt": 79.12,
+    "n_activated_corridors": 2860,
+    "bri_share_activated_pct": 72.0
+  },
+  "M_EU": {
+    "n_selected_ports": 182,
+    "maximal_global_W_Mt": 52.46,
+    "maximal_bri_scope_W_Mt": 44.72,
+    "n_activated_corridors": 1982,
+    "bri_share_activated_pct": 61.1
+  },
+  "M_BRI": {
+    "n_selected_ports": 228,
+    "maximal_global_W_Mt": 42.64,
+    "maximal_bri_scope_W_Mt": 42.64,
+    "n_activated_corridors": 2548,
+    "bri_share_activated_pct": 100.0
+  },
+  "M_BRI_control": {
+    "n_selected_ports": 217,
+    "maximal_global_W_Mt": 97.25,
+    "maximal_bri_scope_W_Mt": 80.66,
+    "n_activated_corridors": 3003,
+    "bri_share_activated_pct": 82.1
+  }
+}
