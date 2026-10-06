@@ -1,0 +1,38 @@
+{
+  "runs": [
+    {
+      "scale": 0.95,
+      "n_range_violating": 261,
+      "n_mell_rows": 5931,
+      "obj_10pct_Mt": 85.59,
+      "ports_10pct": 111,
+      "corr_10pct": 1493,
+      "obj_20pct_Mt": 100.49,
+      "ports_20pct": 212,
+      "corr_20pct": 2763
+    },
+    {
+      "scale": 1.0,
+      "n_range_violating": 281,
+      "n_mell_rows": 5931,
+      "obj_10pct_Mt": 85.59,
+      "ports_10pct": 111,
+      "corr_10pct": 1493,
+      "obj_20pct_Mt": 100.49,
+      "ports_20pct": 212,
+      "corr_20pct": 2763
+    },
+    {
+      "scale": 1.05,
+      "n_range_violating": 297,
+      "n_mell_rows": 5738,
+      "obj_10pct_Mt": 85.54,
+      "ports_10pct": 111,
+      "corr_10pct": 1492,
+      "obj_20pct_Mt": 100.4,
+      "ports_20pct": 212,
+      "corr_20pct": 2796
+    }
+  ],
+  "note": "Distances enter the siting model only through the range constraint (corridor distance vs R_f and the M_ell sub-leg condition). The +/-5% bracket covers the regionalized detour factors (1.02-1.05) of the great-circle fallback and typical sailed-distance measurement error. Port costs (remoteness premium) are held fixed; the cost channel is covered by the uniform-cost sensitivity of Module 13."
+}

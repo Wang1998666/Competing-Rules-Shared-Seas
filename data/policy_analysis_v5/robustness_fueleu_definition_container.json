@@ -1,0 +1,99 @@
+{
+  "classification_table": [
+    {
+      "definition": "pressure_field_tau0.3",
+      "gov_type": "EU_ETS",
+      "n_corridors": 1730,
+      "emission_Mt": 43.03,
+      "emission_share_pct": 20.9
+    },
+    {
+      "definition": "pressure_field_tau0.3",
+      "gov_type": "BRI_only",
+      "n_corridors": 4077,
+      "emission_Mt": 119.69,
+      "emission_share_pct": 58.0
+    },
+    {
+      "definition": "pressure_field_tau0.3",
+      "gov_type": "FuelEU_exposed",
+      "n_corridors": 1119,
+      "emission_Mt": 28.56,
+      "emission_share_pct": 13.8
+    },
+    {
+      "definition": "pressure_field_tau0.3",
+      "gov_type": "Vacuum",
+      "n_corridors": 843,
+      "emission_Mt": 15.09,
+      "emission_share_pct": 7.3
+    },
+    {
+      "definition": "pressure_field_tau0.3",
+      "gov_type": "RVI_strict",
+      "n_corridors": 159,
+      "emission_Mt": 13.21,
+      "emission_share_pct": 6.4
+    },
+    {
+      "definition": "pressure_field_tau0.3",
+      "gov_type": "RVI_any",
+      "n_corridors": 843,
+      "emission_Mt": 15.09,
+      "emission_share_pct": 7.3
+    },
+    {
+      "definition": "endpoint_based",
+      "gov_type": "EU_ETS",
+      "n_corridors": 1730,
+      "emission_Mt": 43.03,
+      "emission_share_pct": 20.9
+    },
+    {
+      "definition": "endpoint_based",
+      "gov_type": "BRI_only",
+      "n_corridors": 4077,
+      "emission_Mt": 119.69,
+      "emission_share_pct": 58.0
+    },
+    {
+      "definition": "endpoint_based",
+      "gov_type": "FuelEU_exposed",
+      "n_corridors": 0,
+      "emission_Mt": 0.0,
+      "emission_share_pct": 0.0
+    },
+    {
+      "definition": "endpoint_based",
+      "gov_type": "Vacuum",
+      "n_corridors": 1962,
+      "emission_Mt": 43.64,
+      "emission_share_pct": 21.1
+    },
+    {
+      "definition": "endpoint_based",
+      "gov_type": "RVI_strict",
+      "n_corridors": 497,
+      "emission_Mt": 37.84,
+      "emission_share_pct": 18.3
+    },
+    {
+      "definition": "endpoint_based",
+      "gov_type": "RVI_any",
+      "n_corridors": 1962,
+      "emission_Mt": 43.64,
+      "emission_share_pct": 21.1
+    }
+  ],
+  "definition_disagreement": {
+    "n_both": 1659,
+    "emission_both_Mt": 40.3,
+    "n_pressure_only": 1852,
+    "emission_pressure_only_Mt": 65.18,
+    "n_endpoint_only": 71,
+    "emission_endpoint_only_Mt": 2.73,
+    "n_neither": 4187,
+    "emission_neither_Mt": 98.14
+  },
+  "note": "Under the endpoint-based alternative the FuelEU-exposed category collapses to zero in the mutually exclusive scheme, because its scope (either endpoint in EU/EEA) coincides with the EU ETS endpoint rule and the priority convention assigns those corridors to EU_ETS. The pressure-field definition therefore supplies the incremental 13.8%-of-emissions belt (near-EU lanes without an EU endpoint) that the endpoint definition cannot see."
+}

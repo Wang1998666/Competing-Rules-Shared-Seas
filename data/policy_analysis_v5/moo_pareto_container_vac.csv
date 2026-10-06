@@ -1,0 +1,7 @@
+label,eff_obj_Mt,vac_obj_Mt,vac_share_pct,n_ports,n_corr,bri_share_pct,status
+eps=0.00,100.47,6.0,6.0,212,2780,78.9,Optimal
+eps=0.20,100.45,5.96,5.9,212,2771,78.8,Optimal
+eps=0.40,100.45,5.96,5.9,212,2771,78.8,Optimal
+eps=0.60,100.45,5.96,5.9,212,2771,78.8,Optimal
+eps=0.80,100.46,5.96,5.9,212,2770,78.8,Optimal
+eps=0.95,100.45,5.96,5.9,212,2772,78.8,Optimal

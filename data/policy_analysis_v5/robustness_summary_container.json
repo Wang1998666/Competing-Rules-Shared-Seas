@@ -1,0 +1,197 @@
+{
+  "version": "v4-robustness",
+  "vessel_type": "container",
+  "fueleu_definition": {
+    "classification_table": [
+      {
+        "definition": "pressure_field_tau0.3",
+        "gov_type": "EU_ETS",
+        "n_corridors": 1730,
+        "emission_Mt": 43.03,
+        "emission_share_pct": 20.9
+      },
+      {
+        "definition": "pressure_field_tau0.3",
+        "gov_type": "BRI_only",
+        "n_corridors": 4077,
+        "emission_Mt": 119.69,
+        "emission_share_pct": 58.0
+      },
+      {
+        "definition": "pressure_field_tau0.3",
+        "gov_type": "FuelEU_exposed",
+        "n_corridors": 1119,
+        "emission_Mt": 28.56,
+        "emission_share_pct": 13.8
+      },
+      {
+        "definition": "pressure_field_tau0.3",
+        "gov_type": "Vacuum",
+        "n_corridors": 843,
+        "emission_Mt": 15.09,
+        "emission_share_pct": 7.3
+      },
+      {
+        "definition": "pressure_field_tau0.3",
+        "gov_type": "RVI_strict",
+        "n_corridors": 159,
+        "emission_Mt": 13.21,
+        "emission_share_pct": 6.4
+      },
+      {
+        "definition": "pressure_field_tau0.3",
+        "gov_type": "RVI_any",
+        "n_corridors": 843,
+        "emission_Mt": 15.09,
+        "emission_share_pct": 7.3
+      },
+      {
+        "definition": "endpoint_based",
+        "gov_type": "EU_ETS",
+        "n_corridors": 1730,
+        "emission_Mt": 43.03,
+        "emission_share_pct": 20.9
+      },
+      {
+        "definition": "endpoint_based",
+        "gov_type": "BRI_only",
+        "n_corridors": 4077,
+        "emission_Mt": 119.69,
+        "emission_share_pct": 58.0
+      },
+      {
+        "definition": "endpoint_based",
+        "gov_type": "FuelEU_exposed",
+        "n_corridors": 0,
+        "emission_Mt": 0.0,
+        "emission_share_pct": 0.0
+      },
+      {
+        "definition": "endpoint_based",
+        "gov_type": "Vacuum",
+        "n_corridors": 1962,
+        "emission_Mt": 43.64,
+        "emission_share_pct": 21.1
+      },
+      {
+        "definition": "endpoint_based",
+        "gov_type": "RVI_strict",
+        "n_corridors": 497,
+        "emission_Mt": 37.84,
+        "emission_share_pct": 18.3
+      },
+      {
+        "definition": "endpoint_based",
+        "gov_type": "RVI_any",
+        "n_corridors": 1962,
+        "emission_Mt": 43.64,
+        "emission_share_pct": 21.1
+      }
+    ],
+    "definition_disagreement": {
+      "n_both": 1659,
+      "emission_both_Mt": 40.3,
+      "n_pressure_only": 1852,
+      "emission_pressure_only_Mt": 65.18,
+      "n_endpoint_only": 71,
+      "emission_endpoint_only_Mt": 2.73,
+      "n_neither": 4187,
+      "emission_neither_Mt": 98.14
+    },
+    "note": "Under the endpoint-based alternative the FuelEU-exposed category collapses to zero in the mutually exclusive scheme, because its scope (either endpoint in EU/EEA) coincides with the EU ETS endpoint rule and the priority convention assigns those corridors to EU_ETS. The pressure-field definition therefore supplies the incremental 13.8%-of-emissions belt (near-EU lanes without an EU endpoint) that the endpoint definition cannot see."
+  },
+  "range_constraint": {
+    "k_e_distribution": {
+      "green_methanol": {
+        "n_range_violating": 281,
+        "k_e_distribution": {
+          "1": 281
+        },
+        "share_k_e_1": 100.0
+      },
+      "green_ammonia": {
+        "n_range_violating": 554,
+        "k_e_distribution": {
+          "1": 354,
+          "2": 199,
+          "3": 1
+        },
+        "share_k_e_1": 63.9
+      }
+    },
+    "budget_pool_check": {
+      "n_feasible_ports": 944,
+      "full_upgrade_pool_MUSD_yr": 15351.2,
+      "budget20_MUSD_yr": 3070.2,
+      "budget10_MUSD_yr": 1535.1,
+      "mean_cost_MUSD_yr": 16.26
+    },
+    "runs": [
+      {
+        "fuel": "methanol",
+        "budget_fraction": 0.1,
+        "obj_aggregated_Mt": 85.591,
+        "obj_chain_Mt": 85.591,
+        "obj_gap_pct": 0.0,
+        "n_ports_aggregated": 111,
+        "n_ports_chain": 111,
+        "port_set_jaccard": 1.0,
+        "same_port_set": true,
+        "same_activated_set": true,
+        "n_chain_corridors": 0,
+        "n_chains_enumerated": 0,
+        "status_agg": "Optimal",
+        "status_chain": "Optimal"
+      },
+      {
+        "fuel": "methanol",
+        "budget_fraction": 0.2,
+        "obj_aggregated_Mt": 100.492,
+        "obj_chain_Mt": 100.492,
+        "obj_gap_pct": 0.0,
+        "n_ports_aggregated": 212,
+        "n_ports_chain": 212,
+        "port_set_jaccard": 1.0,
+        "same_port_set": true,
+        "same_activated_set": true,
+        "n_chain_corridors": 0,
+        "n_chains_enumerated": 0,
+        "status_agg": "Optimal",
+        "status_chain": "Optimal"
+      },
+      {
+        "fuel": "ammonia",
+        "budget_fraction": 0.1,
+        "obj_aggregated_Mt": 85.489,
+        "obj_chain_Mt": 85.489,
+        "obj_gap_pct": 0.0,
+        "n_ports_aggregated": 110,
+        "n_ports_chain": 110,
+        "port_set_jaccard": 1.0,
+        "same_port_set": true,
+        "same_activated_set": true,
+        "n_chain_corridors": 101,
+        "n_chains_enumerated": 8860,
+        "status_agg": "Optimal",
+        "status_chain": "Optimal"
+      },
+      {
+        "fuel": "ammonia",
+        "budget_fraction": 0.2,
+        "obj_aggregated_Mt": 100.844,
+        "obj_chain_Mt": 100.844,
+        "obj_gap_pct": 0.0,
+        "n_ports_aggregated": 213,
+        "n_ports_chain": 213,
+        "port_set_jaccard": 1.0,
+        "same_port_set": true,
+        "same_activated_set": true,
+        "n_chain_corridors": 101,
+        "n_chains_enumerated": 8860,
+        "status_agg": "Optimal",
+        "status_chain": "Optimal"
+      }
+    ],
+    "note": "For the methanol reference scenario every range-violating corridor has k_e = 1, where the aggregated form z_e*k_e <= sum(y_p) is algebraically identical to the per-leg form (z_e*1 = z_e), so the two formulations coincide by construction. For ammonia (R_f = 5,000 nm) corridors with k_e >= 2 exist; the chain-partition formulation (feasible bunkering chain required) is the tightest per-leg implementation, so the aggregated-vs-chain comparison brackets any slack of the aggregated form."
+  }
+}

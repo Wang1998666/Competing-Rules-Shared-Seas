@@ -1,0 +1,5 @@
+mask,n_feasible_ports,cost_pool_MUSD_yr,obj_10pct_Mt,ports_10pct,corr_10pct,jaccard_10pct,obj_20pct_Mt,ports_20pct,corr_20pct,jaccard_20pct
+baseline_eq18,944,15351.2,85.59,111,1493,1.0,100.49,212,2763,1.0
+no_mask,1051,17087.9,88.42,121,1663,0.917,101.96,236,3050,0.898
+berths_ge1,539,8207.4,67.4,65,839,0.586,87.32,118,1630,0.557
+berths_ge3,305,4330.8,45.58,36,401,0.324,69.01,67,859,0.316

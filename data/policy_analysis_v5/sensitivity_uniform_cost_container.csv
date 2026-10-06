@@ -1,0 +1,5 @@
+budget_fraction,budget_MUSD,n_ports,n_corridors,abatement_Mt,abatement_Mt_hetero,n_ports_hetero,status
+0.05,769.4,47,546,57.18,65.34,60,Optimal
+0.1,1538.7,94,1239,80.9,85.59,111,Optimal
+0.2,3077.4,188,2474,98.4,100.43,211,Optimal
+0.3,4616.2,283,3429,104.3,105.02,308,Optimal

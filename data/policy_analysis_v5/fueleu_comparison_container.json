@@ -1,0 +1,22 @@
+{
+  "version": "v2",
+  "view": "global",
+  "budget_fraction": 0.2,
+  "gamma": 0.0,
+  "ets_price_usd": 80.0,
+  "fuel": "green_methanol",
+  "base_budget_MUSD_yr": 3070.2,
+  "ets_revenue_MUSD_yr": 0.0,
+  "baseline_obj_global_Mt": 100.43,
+  "baseline_obj_view_Mt": 100.43,
+  "rule_obj_view_Mt": 86.54,
+  "rule_obj_global_Mt": 86.54,
+  "MPC_global_pct": 13.83,
+  "baseline_n_ports": 211,
+  "rule_n_ports": 190,
+  "eu_ports_forced": 100,
+  "new_ports_added": 78,
+  "ports_removed": 99,
+  "new_corridors_activated": 458,
+  "corridors_lost": 1273
+}

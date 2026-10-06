@@ -1,0 +1,5 @@
+fuel,budget_fraction,obj_aggregated_Mt,obj_chain_Mt,obj_gap_pct,n_ports_aggregated,n_ports_chain,port_set_jaccard,same_port_set,same_activated_set,n_chain_corridors,n_chains_enumerated,status_agg,status_chain
+methanol,0.1,85.591,85.591,0.0,111,111,1.0,True,True,0,0,Optimal,Optimal
+methanol,0.2,100.492,100.492,0.0,212,212,1.0,True,True,0,0,Optimal,Optimal
+ammonia,0.1,85.489,85.489,0.0,110,110,1.0,True,True,101,8860,Optimal,Optimal
+ammonia,0.2,100.844,100.844,0.0,213,213,1.0,True,True,101,8860,Optimal,Optimal

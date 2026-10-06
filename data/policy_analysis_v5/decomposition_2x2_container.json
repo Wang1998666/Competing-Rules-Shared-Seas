@@ -1,0 +1,25 @@
+{
+  "vessel_type": "container",
+  "fuel": "green_methanol",
+  "budget_fraction": 0.2,
+  "gamma": 0.0,
+  "n_forced_ports": 100,
+  "n_corridors": 1016,
+  "n_ports": 179,
+  "cells_global_Mt": {
+    "G": 100.43,
+    "G_force": 86.54,
+    "EU_pure": 22.17,
+    "EU_force": 21.94
+  },
+  "W_EU_scope_Mt": {
+    "EU_pure": 22.17,
+    "EU_force": 21.94
+  },
+  "decomposition_pp": {
+    "scope_only": 77.9,
+    "mandate_only": 13.8,
+    "interaction": -13.6,
+    "total": 78.2
+  }
+}
