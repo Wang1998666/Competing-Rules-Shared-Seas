@@ -1,0 +1,5 @@
+fuel,budget_fraction,budget,n_ports,n_corridors,objective_tco2e,solve_time_s,status
+green_methanol,0.05,767.5614677135894,60,742,65337040.76889563,6.1,Optimal
+green_methanol,0.1,1535.1229354271788,111,1493,85590566.63713323,2.3,Optimal
+green_methanol,0.2,3070.2458708543577,211,2758,100425053.60379712,2.3,Optimal
+green_methanol,0.3,4605.368806281536,308,3679,105018494.73198518,2.8,Optimal

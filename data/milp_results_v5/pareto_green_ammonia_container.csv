@@ -1,0 +1,5 @@
+fuel,budget_fraction,budget,n_ports,n_corridors,objective_tco2e,solve_time_s,status
+green_ammonia,0.05,767.5614677135894,59,697,65712500.117590055,5.0,Optimal
+green_ammonia,0.1,1535.1229354271788,110,1395,85479526.5164878,3.6,Optimal
+green_ammonia,0.2,3070.2458708543577,212,2636,100793066.18546131,2.3,Optimal
+green_ammonia,0.3,4605.368806281536,308,3512,105995297.43961774,2.6,Optimal
