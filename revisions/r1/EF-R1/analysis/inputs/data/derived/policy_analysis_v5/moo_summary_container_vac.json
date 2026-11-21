@@ -1,0 +1,9 @@
+{
+  "version": "v2",
+  "budget_fraction": 0.2,
+  "obj2": "vac",
+  "u2max_Mt": 5.92,
+  "ref_eff_Mt": 100.46,
+  "ref_bri_share_pct": 78.9,
+  "n_points": 6
+}

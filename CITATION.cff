@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this version when using the R1 analysis code or derived data."
+title: "Competing Rules, Shared Seas: Analysis code and derived data"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Ming
+    affiliation: "School of Navigation, Jimei University, Xiamen 361021, China"
+version: "ef-r1"
+date-released: 2026-11-21
+repository-code: "https://github.com/Wang1998666/Competing-Rules-Shared-Seas"
+url: "https://github.com/Wang1998666/Competing-Rules-Shared-Seas/tree/ef-r1/revisions/r1"

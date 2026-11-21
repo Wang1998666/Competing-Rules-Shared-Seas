@@ -1,0 +1,832 @@
+[
+  {
+    "path": "inputs/basemap/ne_110m_admin_0_boundary_lines_land.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_admin_0_boundary_lines_land.dbf",
+    "bytes": 483250,
+    "sha256": "373d7a150b9f8dcb6ec918b52eea0f0361ad40ef433602a1b9f59b4de668daec"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_admin_0_boundary_lines_land.prj",
+    "bytes": 147,
+    "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_admin_0_boundary_lines_land.shp",
+    "bytes": 68372,
+    "sha256": "d19f784f92626816c064f878571f61bc43ec7bfc407666ce6a450d6e757afff0"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_admin_0_boundary_lines_land.shx",
+    "bytes": 2748,
+    "sha256": "849899c47c51c6edd04750307b21cb109ae4c7e8ca3c5fee8606f8646dbe2787"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_land.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_land.dbf",
+    "bytes": 3431,
+    "sha256": "db7cf6d2de2811df09bd7fcc6f243ab78a715b83571a0cb7b36b4e2af3297caa"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_land.prj",
+    "bytes": 147,
+    "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_land.shp",
+    "bytes": 89504,
+    "sha256": "8689e6932b8e370e2ca4587cf3ba21e460b1235db37b6ed3c172c35b4a6088de"
+  },
+  {
+    "path": "inputs/basemap/ne_110m_land.shx",
+    "bytes": 1116,
+    "sha256": "2719254764a70262a34333581d582d503b8af5d6626e6da4eb2b5f86e7316faa"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_coastline.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_coastline.dbf",
+    "bytes": 70101,
+    "sha256": "f100fa5a99786c63ec9eb2cd430e389bc6235b8e26d2712d33f9bfd6cb6aadfc"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_coastline.prj",
+    "bytes": 143,
+    "sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_coastline.shp",
+    "bytes": 1046728,
+    "sha256": "797d675af9613f80b51ab6049fa32e589974d7a97c6497ca56772965f179ed26"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_coastline.shx",
+    "bytes": 11524,
+    "sha256": "0ff1792f2d16b58246d074215edd9d12fa280880ecaad61a91b9382fee854065"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_land.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_land.dbf",
+    "bytes": 69709,
+    "sha256": "d082add78c82e01b9bf422df3143ad6fbe43ca1bcb798d12a334f9e001b67bc0"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_land.prj",
+    "bytes": 143,
+    "sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_land.shp",
+    "bytes": 1050332,
+    "sha256": "140d1419f7ace66bf0ea8ceb068cab544d413170f4e8c48e0a11bde6c978b319"
+  },
+  {
+    "path": "inputs/basemap/ne_50m_land.shx",
+    "bytes": 11460,
+    "sha256": "c1b93ee40fe83d6322197251517c141c2c91970915ac61d7bf7a4821fc2a68d7"
+  },
+  {
+    "path": "inputs/code/calc_v5/03c_h3_policy_coverage.py",
+    "bytes": 6447,
+    "sha256": "a262ab089389f15bfdea36ea3dcfd4a1d3578902ddf038ea4e1d382679e33bcb"
+  },
+  {
+    "path": "inputs/code/calc_v5/08_bri_analysis.py",
+    "bytes": 4125,
+    "sha256": "ab95b54142cab8071d12a1567a4bec11f7aa861974bfc4b67ca516542c85cc9c"
+  },
+  {
+    "path": "inputs/data/derived/h3_grid_v5/corridor_h3_paths_container.parquet",
+    "bytes": 5164404,
+    "sha256": "fb1e47f337689b29335f8b0c20d72585dc0fa5eb153d61de55605f08bb952f72"
+  },
+  {
+    "path": "inputs/data/derived/h3_grid_v5/h3_corridor_coverage_container.parquet",
+    "bytes": 1914476,
+    "sha256": "8fd6b97506e5880e3fde5650dd8b77139e6e7a1ddd1d36b8074b8b234413a09f"
+  },
+  {
+    "path": "inputs/data/derived/h3_grid_v5/h3_emission_grid_container.parquet",
+    "bytes": 29340008,
+    "sha256": "e21878770abc958e61002b75e340b9f3f669088c2da51f9f9c134b656b2299da"
+  },
+  {
+    "path": "inputs/data/derived/h3_grid_v5/h3_eu_ets_coverage_container.parquet",
+    "bytes": 3122402,
+    "sha256": "e5ced2c27ec8f3571be973dfc881861e577eef355b991738cf2cfca8b1949b55"
+  },
+  {
+    "path": "inputs/data/derived/milp_results_v5/activated_corridors_container.csv",
+    "bytes": 842275,
+    "sha256": "a19751cc7a56dbed63bf49176e82062f37a80958bf720f59881b03c7ef964856"
+  },
+  {
+    "path": "inputs/data/derived/milp_results_v5/pareto_green_ammonia_container.csv",
+    "bytes": 392,
+    "sha256": "999df33764d378a16000951e320b5f588818bcc26236d7b8c5d69a4364c36d4e"
+  },
+  {
+    "path": "inputs/data/derived/milp_results_v5/pareto_green_methanol_container.csv",
+    "bytes": 396,
+    "sha256": "ad1f142c900b4a48d82ef5524ccab05a20ebf16d849f09b9fcbea978242f27a9"
+  },
+  {
+    "path": "inputs/data/derived/milp_results_v5/selected_ports_container.csv",
+    "bytes": 31623,
+    "sha256": "4f3f3cc0bbc30753f2022ae0f5cd7418519ad958d3644c1452bebf9a3b17ce3a"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/breakeven_dualtrack_container.csv",
+    "bytes": 1251502,
+    "sha256": "0859c995d807df70a3ce5fe36bcd72b17ea8d062d785f228cf15e31273ee3d1c"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/breakeven_dualtrack_summary_container.json",
+    "bytes": 1840,
+    "sha256": "7f95a17f22eee5aa9c8bbb6e4c196ecc762a0e831c69ee547335fb93652186f6"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/breakeven_prices_container.csv",
+    "bytes": 958878,
+    "sha256": "8babd5c97c9299c0540d4f441318eb16a289e61883f2025b4691be6060f0027d"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/breakeven_summary_container.json",
+    "bytes": 956,
+    "sha256": "6ea727576465a6ce90e0be2c0fbfa0d738a684e1893909960e91ff4a1a2623a6"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_corridors_container.parquet",
+    "bytes": 233539,
+    "sha256": "a1b4f58203394126d9ca3d0417e4fcc3aeb68b98ad19c3705fa85fffcdab803f"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_membership_robustness_container.json",
+    "bytes": 3033,
+    "sha256": "8e112c59bf02ab6327aec417d631ec4e054de78badc1c5d75344d14282f23df1"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_port_summary_container.csv",
+    "bytes": 18694,
+    "sha256": "a425515a5ff32569cd4aadfd63e6938888ae7179ce6cc960db65dadbe717195a"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_summary_container.json",
+    "bytes": 149,
+    "sha256": "10c78e5d8a539e2ae936ea98bf2c5178493ca2e24b65f65efa1b78eb38b9ab94"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_activated_corridors_container_b10.csv",
+    "bytes": 8485,
+    "sha256": "c7e85cb71096b3036e498fe4fd769dfd27223cb8ad8d0f1860b3e89caffab547"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_activated_corridors_container_b20.csv",
+    "bytes": 13706,
+    "sha256": "779f70344fae92c2351d3dc68c215a1c24df10908850ab9d01d52ff801d1dbb4"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_comparison_container_b10.json",
+    "bytes": 346,
+    "sha256": "e33e092cd9169f49ef95a6f92eedd5b7bcdd81fe10025f077078c37fef725eba"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_comparison_container_b20.json",
+    "bytes": 347,
+    "sha256": "b7521f625a846764c31341e78bde2c86813d860b559cbd618353d7fdbc58f48d"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_control_comparison_container.json",
+    "bytes": 770,
+    "sha256": "324dbaa00d2c9f2b6d23a10d2a3415792c4134b4ecd2723ce3e0c2fb550cad37"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_control_selected_ports_container.csv",
+    "bytes": 1530,
+    "sha256": "28350344a8c6599e139831c66134e8f0ad6a0fbadd1b92376c7dad6b016ea9fc"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_maximal_activation_container.json",
+    "bytes": 794,
+    "sha256": "d82a22a48b5d2a97f5c711501ee5b672cd84d2b22facfdfb79ad5f8392c237e8"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_selected_ports_container_b10.csv",
+    "bytes": 858,
+    "sha256": "f44b1dca5c88c9899100818b26334f6c819a2a1fb9ba87976da3568b184aa88c"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/bri_view_selected_ports_container_b20.csv",
+    "bytes": 1608,
+    "sha256": "428b917c9dc6f5e569005382677de906cc85a73c2be40f8ed1e3641226e2a086"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/camp_control_container.csv",
+    "bytes": 280,
+    "sha256": "cdb156bff5073aa092014256189dc6f8af30c8a8236b9d90c6cfc2111c2d54f2"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/decomposition_2x2_container.json",
+    "bytes": 496,
+    "sha256": "e61fdd8ce39bd5697d227d1c5cbf5413b84c200ae53a30be7d2ccd1523021aa7"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_activated_corridors_container.csv",
+    "bytes": 10845,
+    "sha256": "ddd4c9756e5ff9c36da8e80d6daeb0b38a453917b36ec7f37d514db0705e5f71"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_activated_corridors_container_vieweu_b20_g0.0_noforce.csv",
+    "bytes": 5950,
+    "sha256": "bcbb88c328f5d14f5877d654e037b6d3cdd96337706b32306ed1d75a828287c5"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_activated_corridors_container_vieweu_b20_g0.5.csv",
+    "bytes": 8426,
+    "sha256": "1d9083d61dc4f5989fe797cb309dfb63af5493c000fa94798d2d40cdae7db5fa"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_activated_corridors_container_viewglobal_b10_g0.0.csv",
+    "bytes": 4642,
+    "sha256": "481ca6881a33bad6cac94323018ca5b6a2f3434026d5e4e6c59734713d7bfaa8"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_activated_corridors_container_viewglobal_b10_g0.0_noforce.csv",
+    "bytes": 8145,
+    "sha256": "3cc6c2056759b2ef0eaa26b4f91239bc0c721ac8e1fdb0d3a8e16fb0ec5b53ce"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_activated_corridors_container_viewglobal_b20_g0.0_noforce.csv",
+    "bytes": 15525,
+    "sha256": "20436796278a8e4f39f3555652b4ad8737078415f0e590bb056d852eee5893dc"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_activated_corridors_container_viewglobal_b20_g0.5.csv",
+    "bytes": 17898,
+    "sha256": "21326078f1ca72970a491ee253f8c3c4120e8233acedb613fc6f150e2814af7f"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_activated_corridors_container_viewglobal_b20_g1.0.csv",
+    "bytes": 21871,
+    "sha256": "c3948b7d90eaf6307e57db3338aea630d5d1f383ff10228e98d94adc94252320"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_comparison_container.json",
+    "bytes": 561,
+    "sha256": "5a03cbd755e8575a7f9b2aae905694962da1c8c5e51e37eaf2af879ad15a0725"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_comparison_container_vieweu_b20_g0.0_noforce.json",
+    "bytes": 558,
+    "sha256": "b43731315e2b073cc6eef9d16971457ab108a0d86ce6256ee696b5cc6f6f83c8"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_comparison_container_vieweu_b20_g0.5.json",
+    "bytes": 555,
+    "sha256": "e837a8217c1646b9bcc82d88ee8369dc46f0318ef9c6670bae1c599777e572b9"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_comparison_container_viewglobal_b10_g0.0.json",
+    "bytes": 557,
+    "sha256": "315647a03cc096a5f9c2a51c5679ba88e4303e3bfd55bfa27343cbeecc2837ae"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_comparison_container_viewglobal_b10_g0.0_noforce.json",
+    "bytes": 558,
+    "sha256": "e3fb42bd66f16a4ce3c7eb58b30296b15628352f486279535c371ebc038dcc13"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_comparison_container_viewglobal_b20_g0.0_noforce.json",
+    "bytes": 554,
+    "sha256": "dc9d08302c7d63ff95185d32c3029731abb75bbf17dfef9edfd8b65afc97c746"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_comparison_container_viewglobal_b20_g0.5.json",
+    "bytes": 562,
+    "sha256": "73f798a6c6a9cc59a8d0a10a9cc5c4f2a42f3b40529bb916a2613d786d777df3"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_comparison_container_viewglobal_b20_g1.0.json",
+    "bytes": 565,
+    "sha256": "d7815b698bc86ac4dfdd381b46b1f059257e1274de10dd2ccd5e14fd725f017f"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_port_changes_container.csv",
+    "bytes": 27508,
+    "sha256": "6273903b04d7631eb8ff888009a13ab2ab4ea2e865f8819f98ad08d8c70ab7da"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_port_changes_container_vieweu_b20_g0.0_noforce.csv",
+    "bytes": 33962,
+    "sha256": "978884e1d8639ed4125fa06e9e7ee914171eb14999a546762fd63a1ffed7e6d7"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_port_changes_container_vieweu_b20_g0.5.csv",
+    "bytes": 8022,
+    "sha256": "6b74dba1154ba86a1bb44c36d58c19e7783d2a44d2827a2d9e242dad1ed883a2"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_port_changes_container_viewglobal_b10_g0.0.csv",
+    "bytes": 18705,
+    "sha256": "aa643bfb85b9e68a97f44c8336fc24939e8fb02dbdad62e664b0fbab10a7ca21"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_port_changes_container_viewglobal_b10_g0.0_noforce.csv",
+    "bytes": 15893,
+    "sha256": "c884e01d8cf304e5ccf47e3614b3e5977294286160049e80437311386654ee25"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_port_changes_container_viewglobal_b20_g0.0_noforce.csv",
+    "bytes": 219,
+    "sha256": "81b374e3ca17979f5f51e39b07a4ed3ca4187448bbd61992f64e87c0129fd161"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_port_changes_container_viewglobal_b20_g0.5.csv",
+    "bytes": 17018,
+    "sha256": "42d5a2873a195de65fa49ce20f3c2649d414dab2ab0e17de69818d6681fb4a5c"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_port_changes_container_viewglobal_b20_g1.0.csv",
+    "bytes": 17125,
+    "sha256": "dc87ce8633077732bba57d48a7b4f29c37bf218be65db8c8c25684bf12253d27"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_selected_ports_container.csv",
+    "bytes": 1341,
+    "sha256": "08251ec171692251fa63f355a6fb96fb1d88ca9757da61b72b34c3c009c3b86c"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_selected_ports_container_vieweu_b20_g0.0_noforce.csv",
+    "bytes": 1285,
+    "sha256": "f92aef8d75db5df017e76b0b766dd6e50d05584b05ec0360e4a479fc1e336b0c"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_selected_ports_container_vieweu_b20_g0.5.csv",
+    "bytes": 1642,
+    "sha256": "d38b3a9921f9838abc9fc8fd63921c6f5f9937ff645aa6983f0fed799d64c8d8"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_selected_ports_container_viewglobal_b10_g0.0.csv",
+    "bytes": 669,
+    "sha256": "7b88149dd8bd77178dd53fc9ba578735569571d4540ce6b43ef744c6d37360fb"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_selected_ports_container_viewglobal_b10_g0.0_noforce.csv",
+    "bytes": 788,
+    "sha256": "f62d79119fbf6255dfdcb151b836845ece37ba4cb5f027fd50006c59c314ebeb"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_selected_ports_container_viewglobal_b20_g0.0_noforce.csv",
+    "bytes": 1488,
+    "sha256": "4129769b70b101e17a00c9c58809552a863795a56724a70d82b4795bbc973da8"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_selected_ports_container_viewglobal_b20_g0.5.csv",
+    "bytes": 1824,
+    "sha256": "7902f1042e2a829fd6fdc4820deb1efa69fe9439931b4b61d20ce73c5d73256a"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/fueleu_selected_ports_container_viewglobal_b20_g1.0.csv",
+    "bytes": 2265,
+    "sha256": "0f1842642bd88f98c7b8eaa317c5987ede815704224cca368fd726a2f0fd9d93"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/governance_corridors_container.parquet",
+    "bytes": 278464,
+    "sha256": "e9735679e7b175eed0a3c5fe6652c3d89d66f82c41f0fdf4a7c4527dd7f8a5a8"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/governance_ports_container.parquet",
+    "bytes": 214112,
+    "sha256": "0fed7dd4ad9fbc175a506eca49906d2f6e547769ea557d27d565bbe23502c1d3"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/governance_summary_container.json",
+    "bytes": 1188,
+    "sha256": "964ad74328412dcdafd845857b5ef4b7a501f6a7baf9d1d7932f2377ad455352"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/hub_control_container.csv",
+    "bytes": 1478,
+    "sha256": "8901337c61f9425f24da3d87fedd030c22afbbdc860f632f93b42fc4be1bd189"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_activated_1000_container.csv",
+    "bytes": 236040,
+    "sha256": "7a8cc411ba52dee6479654097245f0b458d47d6d44806457ff4a86db603e5191"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_activated_2000_container.csv",
+    "bytes": 440361,
+    "sha256": "df4f175bca2d7d07dac0e1539939dd6e93d8cd1e2bea2a3f26d84935e8f3e8bc"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_activated_380_container.csv",
+    "bytes": 5836,
+    "sha256": "5fd7ad5f20b2cfc6b9503163ccff31fccbd39fc98db460e4d6e428f6a794f28b"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_activated_5000_container.csv",
+    "bytes": 624662,
+    "sha256": "b4c42997aa09583407e86542dd1a9f654c2fb1ed5c64174117637893f703d68e"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_ports_1000_container.csv",
+    "bytes": 31542,
+    "sha256": "af60b1a6cb25cdf57512288389efe05fcce073edcca34e89efbf5730a65623be"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_ports_2000_container.csv",
+    "bytes": 31693,
+    "sha256": "8162a965aa13ad949907c13ca27b685e4d620b6378e806e1cd9d301096a68496"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_ports_380_container.csv",
+    "bytes": 8373,
+    "sha256": "7a778bdeffca1ad0ef5ef5d847586c9ce0004e02ea5c1d446fcc3f1e21e25b5b"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_ports_5000_container.csv",
+    "bytes": 31778,
+    "sha256": "d7ac06bd9fc0ccfd63cf30bf5469e269aa3e360b67aa4b0ee313a768fbef93b6"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/imo_carbon_summary_container.csv",
+    "bytes": 309,
+    "sha256": "84c702d503240deffda54b94b8ae72ae1fbd154d42d1ff354c62d6c9caf20042"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_design_summary_container.csv",
+    "bytes": 1728,
+    "sha256": "c00e42899b41a7b99876b3cca7954b117c8e2334c477254e6ba82d2a9dbab195"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_design_summary_container.json",
+    "bytes": 5411,
+    "sha256": "4e6ad0ad5ede090e1f1bc1311359f44a93b3bd372d02ee91f80b175bd8b8cfa7"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_allocated_10000_container.csv",
+    "bytes": 1734848,
+    "sha256": "50e3071175a7ddcecc5c243d22960e2329a106e2a31901a8601380cbf32d2ada"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_allocated_1000_container.csv",
+    "bytes": 915766,
+    "sha256": "5e35a113cb243d23ff2321ce33269e7203495101057c5b196f89b95e275b4af2"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_allocated_2000_container.csv",
+    "bytes": 1272070,
+    "sha256": "e4008a9557fe6c8d5975e56bea02ebf50168208eb164a31c0369fc10314f5440"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_allocated_380_container.csv",
+    "bytes": 120458,
+    "sha256": "6e2dbaf9975a99f956895377a5e8e58f33c31847d8f4bd8954cd9bbe19e2c007"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_allocated_5000_container.csv",
+    "bytes": 1598844,
+    "sha256": "b73611ae05bd083a729cc418997f1cb48a68bb7c89028d3671f81749b56d6489"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_standalone_10000_container.csv",
+    "bytes": 1067612,
+    "sha256": "034b6e0b4496802c9f1695442a702165cef7bba940913c799d8ea35c48f3b6b5"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_standalone_1000_container.csv",
+    "bytes": 240060,
+    "sha256": "3d681c8a296dbd4e50b568c36e698185385fa1540374dbf28da996cfb0c1bbc2"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_standalone_2000_container.csv",
+    "bytes": 489296,
+    "sha256": "4289cd40ec1d9998325f57f85a8232c379e67247d46d8b10f43d33e515389793"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_standalone_380_container.csv",
+    "bytes": 5836,
+    "sha256": "5fd7ad5f20b2cfc6b9503163ccff31fccbd39fc98db460e4d6e428f6a794f28b"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/market_unconstrained_standalone_5000_container.csv",
+    "bytes": 825374,
+    "sha256": "d292223bbe0ad25a8396034f225dedf180303f6ca388b0e6230241b1de1e05c1"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/mc_uncertainty_container.json",
+    "bytes": 191,
+    "sha256": "02599e55ef3f70e935e9dd55fe3c3d459bc67febf639ef2a302ca4c3cd48bb82"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/meB_activated_corridors_container.csv",
+    "bytes": 13706,
+    "sha256": "779f70344fae92c2351d3dc68c215a1c24df10908850ab9d01d52ff801d1dbb4"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/meB_selected_ports_container.csv",
+    "bytes": 1608,
+    "sha256": "428b917c9dc6f5e569005382677de906cc85a73c2be40f8ed1e3641226e2a086"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/meU_activated_corridors_container.csv",
+    "bytes": 5950,
+    "sha256": "bcbb88c328f5d14f5877d654e037b6d3cdd96337706b32306ed1d75a828287c5"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/meU_forced_activated_corridors_container.csv",
+    "bytes": 5899,
+    "sha256": "7a4609474a78e70bc8e4e8f07f15e55e737d06a7a3e072e3142ec7a4691b6a7b"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/meU_forced_selected_ports_container.csv",
+    "bytes": 1264,
+    "sha256": "74c41eb9dc219d2ca8e238110cd4bbfb032b73db54a05be00312a7d020bcd7c9"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/meU_selected_ports_container.csv",
+    "bytes": 1285,
+    "sha256": "f92aef8d75db5df017e76b0b766dd6e50d05584b05ec0360e4a479fc1e336b0c"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/moo_pareto_container_bri_share.csv",
+    "bytes": 374,
+    "sha256": "1ec53ce4a2f4bd5a5f476a6dbb85b6f7e8193459d97a47de96240fea28244781"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/moo_pareto_container_vac.csv",
+    "bytes": 366,
+    "sha256": "9cba993e8a7f509d6d4ec8fe4087584c9f632eabf82ac73cd35467584175920b"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/moo_summary_container_bri_share.json",
+    "bytes": 168,
+    "sha256": "a9e0684275f4278794383365a2ac99e7a3abe6c022321b32864b634063222b90"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/moo_summary_container_vac.json",
+    "bytes": 162,
+    "sha256": "7318404a896bead5778ab79d9e170904caa0fc6afbbbf1995c82d38ee5ce11f9"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/robustness_fueleu_definition_container.csv",
+    "bytes": 593,
+    "sha256": "808817441625812ffb6ffc5489f899a60b38f6be5dcc071a91ececb26043b262"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/robustness_fueleu_definition_container.json",
+    "bytes": 2922,
+    "sha256": "9aa7c1aaa5c95bb383af6bdd73d225319fe5ca33b3808f8f5575c5de0497ea2c"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/robustness_range_constraint_container.csv",
+    "bytes": 518,
+    "sha256": "4689bac5cde469e68c521dd604ce832d6e4de07fb46512260c970fc218258b86"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/robustness_range_constraint_container.json",
+    "bytes": 2927,
+    "sha256": "3618c9fbbb9186b275a37fb7705a9cd160d29f26675f9ad0bb2c0d64cee23920"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/robustness_summary_container.json",
+    "bytes": 6347,
+    "sha256": "4ec2351e81c801dcb31be1770d175e8be6c1a2113ab62b757af16f6d89a7c724"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_alpha_container.csv",
+    "bytes": 447,
+    "sha256": "da95c30204786398fea28ec8e56d925cce8c65ea1b179251ca4df59ba1634f6a"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_berth_mask_container.csv",
+    "bytes": 395,
+    "sha256": "afbbe9594e2c13db29a7e36a631601699a472904a4d20096398ab69281dd57bd"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_berth_mask_container.json",
+    "bytes": 1734,
+    "sha256": "c01a694bd457072a7cf29b1b7b72304a51432b26918b8dee7fc6c7fce57cbd45"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_distance_container.csv",
+    "bytes": 245,
+    "sha256": "365a38ec8543ab3412c4037f3c63ff38ef7dd3c291f53a9d81536326bf99dcc0"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_distance_container.json",
+    "bytes": 1225,
+    "sha256": "e8013755a3d904442379fcd4e1f6b9e2f022c0ef5e39d1243bab962ffec80877"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_ets_price_container.csv",
+    "bytes": 432,
+    "sha256": "4e966d5d3c3f090c17c59698ee491e0149fe19e5b5692956082a68d61b158e24"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_lng_container.csv",
+    "bytes": 189,
+    "sha256": "10d723c342bfd47b26880230feea9c5e24851ba781292cb8553fa74b19657b4f"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_nmin_container.csv",
+    "bytes": 375,
+    "sha256": "efca0d46ea9adcafe71912d9907de00a7b5d634d68dbcd87e0b765cf2b1934ce"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_nmin_container.json",
+    "bytes": 1391,
+    "sha256": "24e976b0dc74923bce7f2bd50053dc3df4e1845ceeebf72c96a8a39eedbedaf3"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_priority_order_container.csv",
+    "bytes": 403,
+    "sha256": "033d10291370ccc673f8f47766175a45684d9e3a0599fc4a3e1213ea2711bb6e"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_priority_order_container.json",
+    "bytes": 1920,
+    "sha256": "4e0b0b6281e634e23f8af919539808c6aeee250af722af02d883cd2460af3306"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_summary_container.json",
+    "bytes": 5407,
+    "sha256": "48bd29463e7d4469b288fdf76572d98b97a3dabbe6be05b19698d501c3ae7028"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_supp_summary_container.json",
+    "bytes": 6806,
+    "sha256": "a82dd7cd70d33ab271ba6096e5d2de5a80ed3127c523d0f340817236649b7bd0"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_tau_container.csv",
+    "bytes": 151,
+    "sha256": "396e4fbf5dece78bbb923860b14bd91a3dd190691058537491eda4d157341426"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/sensitivity_uniform_cost_container.csv",
+    "bytes": 280,
+    "sha256": "0d668916b4ed6f3b30630ef062ad934273607408ad3fd770a842996e887687c0"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/utility_matrix_container.csv",
+    "bytes": 171,
+    "sha256": "0ea32070a113e6d5d1b705a624a4fed5a2f5bf73c65d048448e635a52f128adb"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/utility_matrix_container.json",
+    "bytes": 548,
+    "sha256": "271af52538a59c7d0e49cb16c668256c3cb3bbec8e281678a407644e98695d6c"
+  },
+  {
+    "path": "inputs/data/derived/policy_analysis_v5/vacuum_corridors_container.csv",
+    "bytes": 11769,
+    "sha256": "a4f47aaff455a934724559436f75ec345ef946daf3abd7c2be42773e4baebbe8"
+  },
+  {
+    "path": "inputs/data/derived/processed_v5/candidate_ports_container.parquet",
+    "bytes": 92002,
+    "sha256": "036b9d377b0d54fd6a5acf45554dfaff6f65347235db8934c72ef8a3185eec88"
+  },
+  {
+    "path": "inputs/data/derived/processed_v5/corridors_container.parquet",
+    "bytes": 822824,
+    "sha256": "18a7c58950cc4076c540c44b94823488add92fe33b8b87aaf564a7faef5d2522"
+  },
+  {
+    "path": "inputs/data/derived/processed_v5/emission_stats_container.csv",
+    "bytes": 387,
+    "sha256": "3ff0fa09d0568ac2d1539f4faac627ed544bb4e7dd9742e3525b57d602d6f5d8"
+  },
+  {
+    "path": "inputs/data/derived/processed_v5/M_ell_container.parquet",
+    "bytes": 86423,
+    "sha256": "9e08648e972009072d9a795f77811aaa698d647963aec22f0a4436269fe5a7a9"
+  },
+  {
+    "path": "inputs/data/institutional_lists/bri_maritime_partners.csv",
+    "bytes": 784,
+    "sha256": "b1893f3541f21b092a8a5640e422faf45441df2a585804f005e3e7a139eef9b3"
+  },
+  {
+    "path": "inputs/data/institutional_lists/eu_eea_countries.csv",
+    "bytes": 342,
+    "sha256": "00bd61ceedc728b087ec8d1b98ade4e0096af6770aff98d926ee2f9ad277489a"
+  },
+  {
+    "path": "inputs/data/institutional_lists/README.md",
+    "bytes": 2112,
+    "sha256": "1da326ff2d38257368595f27acc1a171993b09e09043890e7f9e9fbf876e1769"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_01.pdf",
+    "bytes": 140636,
+    "sha256": "baa44f53030e1d665e2a2efbf7e18196fa109bc96d549293bf78ba567342b0b1"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_02.png",
+    "bytes": 951289,
+    "sha256": "aebb81c5465103bcee6d77e25adb82f4c704a95a59ed2683dc94cd1fa3dbdf6e"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_03.png",
+    "bytes": 945222,
+    "sha256": "0e4f790b67c203d9f20ac6129750cd9bc2126ed70c08be63450ec2a42b6395b8"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_04.png",
+    "bytes": 1507061,
+    "sha256": "44c942061d3638b460a89501aab9ad92a5a0e7268434a4a7288b9d8169e2bc35"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_05.png",
+    "bytes": 1201628,
+    "sha256": "81aec0892b2d106c973d0c90c1ee1dc5bac1a21545a2ddceb50377a4f4b6874d"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_06.png",
+    "bytes": 1137391,
+    "sha256": "a29c8ed1bbb5301ab15f8a646f1b92f5b5a5d7c88ff401a0c959319f32e56069"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_07.png",
+    "bytes": 719187,
+    "sha256": "d42daed20a442c050abf0ccb7b1be0a84ee8a390dce7ebe5350586f61e029446"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_08.png",
+    "bytes": 1025198,
+    "sha256": "f0410f542f368edfa0709cd48d7385554419d53989b8ca662c995ed4161f30eb"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_09.png",
+    "bytes": 278958,
+    "sha256": "fe80157a9a4f4a2ca5d79e909c76906913b7343b5990d208c451fcf67acefe3f"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_10.png",
+    "bytes": 223010,
+    "sha256": "bbfe623dabe737fcca022fbc1bde3a889a3c131d54646182ed83603d2f626a44"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_11.png",
+    "bytes": 166169,
+    "sha256": "753be37c3664c4f26aed63eff0f15176808743e4c63848d8038a8e1d32a02feb"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_12.png",
+    "bytes": 3215296,
+    "sha256": "eb679a5844955820268c4726140a4df371b4f9c3d187031638f396bda40f4713"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_13.png",
+    "bytes": 229500,
+    "sha256": "21f3da7248984e6152c9d78650dd75430d76d3c55bfeaf5cb3d201a0c8b15643"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_14.png",
+    "bytes": 1062378,
+    "sha256": "88e0e97eda9623e0d07b91af4a7e50b9c636fb6aa061f7d33a5e93df370edf70"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_15.png",
+    "bytes": 294750,
+    "sha256": "584110ff074040e7df4265f35272bcf0a8d88fd81adddd78fc4390abaf6f942d"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_16.png",
+    "bytes": 939384,
+    "sha256": "1b47b8a974f034fff0b7463003f6255fd68928414a014b7797a92ddb769488b9"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_17.png",
+    "bytes": 351444,
+    "sha256": "86e25cb95ffcff013322ba9084174276797a05874884301b2924a587628081f5"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_18.png",
+    "bytes": 1432381,
+    "sha256": "0e9858fb12739c2a082c5585c30f4b13d39ffe5384f12084ac4b1fe686f805e1"
+  },
+  {
+    "path": "inputs/reference_figures/Fig_19.png",
+    "bytes": 1879734,
+    "sha256": "d6593813624fc7d4c4360d241ff68ca1a749801a85f2abb5329dae17d089345d"
+  }
+]

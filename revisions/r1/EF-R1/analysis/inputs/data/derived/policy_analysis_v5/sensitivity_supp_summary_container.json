@@ -1,0 +1,204 @@
+{
+  "version": "v4-sensitivity-supp",
+  "vessel_type": "container",
+  "berth_mask": {
+    "variants": [
+      {
+        "mask": "baseline_eq18",
+        "n_feasible_ports": 944,
+        "cost_pool_MUSD_yr": 15351.2,
+        "obj_10pct_Mt": 85.59,
+        "ports_10pct": 111,
+        "corr_10pct": 1493,
+        "jaccard_10pct": 1.0,
+        "obj_20pct_Mt": 100.49,
+        "ports_20pct": 212,
+        "corr_20pct": 2763,
+        "jaccard_20pct": 1.0
+      },
+      {
+        "mask": "no_mask",
+        "n_feasible_ports": 1051,
+        "cost_pool_MUSD_yr": 17087.9,
+        "obj_10pct_Mt": 88.42,
+        "ports_10pct": 121,
+        "corr_10pct": 1663,
+        "jaccard_10pct": 0.917,
+        "obj_20pct_Mt": 101.96,
+        "ports_20pct": 236,
+        "corr_20pct": 3050,
+        "jaccard_20pct": 0.898
+      },
+      {
+        "mask": "berths_ge1",
+        "n_feasible_ports": 539,
+        "cost_pool_MUSD_yr": 8207.4,
+        "obj_10pct_Mt": 67.4,
+        "ports_10pct": 65,
+        "corr_10pct": 839,
+        "jaccard_10pct": 0.586,
+        "obj_20pct_Mt": 87.32,
+        "ports_20pct": 118,
+        "corr_20pct": 1630,
+        "jaccard_20pct": 0.557
+      },
+      {
+        "mask": "berths_ge3",
+        "n_feasible_ports": 305,
+        "cost_pool_MUSD_yr": 4330.8,
+        "obj_10pct_Mt": 45.58,
+        "ports_10pct": 36,
+        "corr_10pct": 401,
+        "jaccard_10pct": 0.324,
+        "obj_20pct_Mt": 69.01,
+        "ports_20pct": 67,
+        "corr_20pct": 859,
+        "jaccard_20pct": 0.316
+      }
+    ],
+    "note": "Baseline is the Eq. 18 screen (container berth OR >=24 annual calls fallback). berths_ge1 drops the calls-based fallback; berths_ge3 is a stricter physical screen; no_mask admits all candidates. The budget is a fixed fraction of each variant's own cost pool, so the comparison isolates the composition of the feasible set, not its size."
+  },
+  "distance": {
+    "runs": [
+      {
+        "scale": 0.95,
+        "n_range_violating": 261,
+        "n_mell_rows": 5931,
+        "obj_10pct_Mt": 85.59,
+        "ports_10pct": 111,
+        "corr_10pct": 1493,
+        "obj_20pct_Mt": 100.49,
+        "ports_20pct": 212,
+        "corr_20pct": 2763
+      },
+      {
+        "scale": 1.0,
+        "n_range_violating": 281,
+        "n_mell_rows": 5931,
+        "obj_10pct_Mt": 85.59,
+        "ports_10pct": 111,
+        "corr_10pct": 1493,
+        "obj_20pct_Mt": 100.49,
+        "ports_20pct": 212,
+        "corr_20pct": 2763
+      },
+      {
+        "scale": 1.05,
+        "n_range_violating": 297,
+        "n_mell_rows": 5738,
+        "obj_10pct_Mt": 85.54,
+        "ports_10pct": 111,
+        "corr_10pct": 1492,
+        "obj_20pct_Mt": 100.4,
+        "ports_20pct": 212,
+        "corr_20pct": 2796
+      }
+    ],
+    "note": "Distances enter the siting model only through the range constraint (corridor distance vs R_f and the M_ell sub-leg condition). The +/-5% bracket covers the regionalized detour factors (1.02-1.05) of the great-circle fallback and typical sailed-distance measurement error. Port costs (remoteness premium) are held fixed; the cost channel is covered by the uniform-cost sensitivity of Module 13."
+  },
+  "n_min": {
+    "runs": [
+      {
+        "n_min": 4,
+        "n_corridors": 7769,
+        "emission_Mt": 206.4,
+        "emission_coverage_pct": 100.0,
+        "EU_ETS_share_pct": 20.9,
+        "BRI_only_share_pct": 58.0,
+        "FuelEU_exposed_share_pct": 13.8,
+        "Vacuum_share_pct": 7.3,
+        "RVI_any_pct": 7.3,
+        "RVI_strict_pct": 6.4
+      },
+      {
+        "n_min": 8,
+        "n_corridors": 6001,
+        "emission_Mt": 198.2,
+        "emission_coverage_pct": 96.1,
+        "EU_ETS_share_pct": 20.7,
+        "BRI_only_share_pct": 57.9,
+        "FuelEU_exposed_share_pct": 13.9,
+        "Vacuum_share_pct": 7.5,
+        "RVI_any_pct": 7.5,
+        "RVI_strict_pct": 6.7,
+        "obj_20pct_Mt": 97.04,
+        "ports_20pct": 213,
+        "corr_20pct": 2318
+      },
+      {
+        "n_min": 16,
+        "n_corridors": 4637,
+        "emission_Mt": 186.4,
+        "emission_coverage_pct": 90.3,
+        "EU_ETS_share_pct": 20.4,
+        "BRI_only_share_pct": 57.8,
+        "FuelEU_exposed_share_pct": 14.1,
+        "Vacuum_share_pct": 7.7,
+        "RVI_any_pct": 7.7,
+        "RVI_strict_pct": 7.0,
+        "obj_20pct_Mt": 92.11,
+        "ports_20pct": 214,
+        "corr_20pct": 1950
+      }
+    ],
+    "note": "Downward relaxation (n_min < 4) is bounded by Table 1: the reference set already carries 95.4% of leg-level emissions, so admitting sporadic lanes can shift aggregate quantities by at most the residual 4.9%."
+  },
+  "priority_order": {
+    "runs": [
+      {
+        "order": "EU>BRI>FuelEU (ref)",
+        "EU_ETS_n": 1730,
+        "EU_ETS_share_pct": 20.9,
+        "BRI_only_n": 4077,
+        "BRI_only_share_pct": 58.0,
+        "FuelEU_exposed_n": 1119,
+        "FuelEU_exposed_share_pct": 13.8,
+        "Vacuum_n": 843,
+        "Vacuum_share_pct": 7.3,
+        "RVI_any_pct": 7.3,
+        "RVI_strict_pct": 6.4
+      },
+      {
+        "order": "BRI>EU>FuelEU",
+        "EU_ETS_n": 716,
+        "EU_ETS_share_pct": 4.7,
+        "BRI_only_n": 5091,
+        "BRI_only_share_pct": 74.2,
+        "FuelEU_exposed_n": 1119,
+        "FuelEU_exposed_share_pct": 13.8,
+        "Vacuum_n": 843,
+        "Vacuum_share_pct": 7.3,
+        "RVI_any_pct": 7.3,
+        "RVI_strict_pct": 6.4
+      },
+      {
+        "order": "EU>FuelEU>BRI",
+        "EU_ETS_n": 1730,
+        "EU_ETS_share_pct": 20.9,
+        "BRI_only_n": 3344,
+        "BRI_only_share_pct": 40.3,
+        "FuelEU_exposed_n": 1852,
+        "FuelEU_exposed_share_pct": 31.6,
+        "Vacuum_n": 843,
+        "Vacuum_share_pct": 7.3,
+        "RVI_any_pct": 7.3,
+        "RVI_strict_pct": 6.4
+      },
+      {
+        "order": "FuelEU>EU>BRI",
+        "EU_ETS_n": 71,
+        "EU_ETS_share_pct": 1.3,
+        "BRI_only_n": 3344,
+        "BRI_only_share_pct": 40.3,
+        "FuelEU_exposed_n": 3511,
+        "FuelEU_exposed_share_pct": 51.1,
+        "Vacuum_n": 843,
+        "Vacuum_share_pct": 7.3,
+        "RVI_any_pct": 7.3,
+        "RVI_strict_pct": 6.4
+      }
+    ],
+    "vacuum_set_invariant": true,
+    "note": "The vacuum set (RE_e = 0) is order-invariant by construction, so the RVI is identical under all orders. The rule-sphere MILP domains are likewise unaffected: the EU scope uses the ETS exposure weight (w_e > 0) and the BRI scope uses membership flags, neither of which involves the mutually exclusive types. Only the descriptive split of the overlapping corridors (1,014 BRI-and-ETS lanes) moves between the EU_ETS and BRI_only labels."
+  }
+}

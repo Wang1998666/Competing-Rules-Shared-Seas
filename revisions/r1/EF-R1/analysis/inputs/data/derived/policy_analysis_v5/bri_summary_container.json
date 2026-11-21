@@ -1,0 +1,8 @@
+{
+  "version": "v2",
+  "n_corridors": 7769,
+  "n_bri": 5091,
+  "bri_share_pct": 65.5,
+  "bri_emission_share_pct": 74.2,
+  "n_bri_ports": 532
+}

@@ -1,0 +1,47 @@
+{
+  "runs": [
+    {
+      "n_min": 4,
+      "n_corridors": 7769,
+      "emission_Mt": 206.4,
+      "emission_coverage_pct": 100.0,
+      "EU_ETS_share_pct": 20.9,
+      "BRI_only_share_pct": 58.0,
+      "FuelEU_exposed_share_pct": 13.8,
+      "Vacuum_share_pct": 7.3,
+      "RVI_any_pct": 7.3,
+      "RVI_strict_pct": 6.4
+    },
+    {
+      "n_min": 8,
+      "n_corridors": 6001,
+      "emission_Mt": 198.2,
+      "emission_coverage_pct": 96.1,
+      "EU_ETS_share_pct": 20.7,
+      "BRI_only_share_pct": 57.9,
+      "FuelEU_exposed_share_pct": 13.9,
+      "Vacuum_share_pct": 7.5,
+      "RVI_any_pct": 7.5,
+      "RVI_strict_pct": 6.7,
+      "obj_20pct_Mt": 97.04,
+      "ports_20pct": 213,
+      "corr_20pct": 2318
+    },
+    {
+      "n_min": 16,
+      "n_corridors": 4637,
+      "emission_Mt": 186.4,
+      "emission_coverage_pct": 90.3,
+      "EU_ETS_share_pct": 20.4,
+      "BRI_only_share_pct": 57.8,
+      "FuelEU_exposed_share_pct": 14.1,
+      "Vacuum_share_pct": 7.7,
+      "RVI_any_pct": 7.7,
+      "RVI_strict_pct": 7.0,
+      "obj_20pct_Mt": 92.11,
+      "ports_20pct": 214,
+      "corr_20pct": 1950
+    }
+  ],
+  "note": "Downward relaxation (n_min < 4) is bounded by Table 1: the reference set already carries 95.4% of leg-level emissions, so admitting sporadic lanes can shift aggregate quantities by at most the residual 4.9%."
+}

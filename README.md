@@ -4,10 +4,16 @@ Peer-review archive accompanying the manuscript **“Competing Rules, Shared Sea
 The Geopolitics of Green Shipping Corridor Investment”** (submitted to *Earth’s
 Future*, manuscript #2026EF010217).
 
-This package contains everything needed to audit the paper outside the
+## Revised manuscript (version ef-r1)
+
+The [R1 reproducibility materials](revisions/r1/) accompany the revised manuscript with 10 main figures. They include the derived inputs, checksums, independent optimization, staged investments, narrower BRI footprint comparison, figure sources, and numerical outputs. See the [reproduction instructions](revisions/r1/README.txt) for file locations and commands. The code is licensed under MIT and the derived data under CC BY 4.0. Access to the commercial vessel records is described below.
+
+## Original submission
+
+The original submission archive contains the workflow for analyses outside the
 licensed raw AIS feed: the complete analysis pipeline (emission estimation,
 H3 attribution, the rule-competition MILP family, all policy experiments), the
-derived data tables every reported number is computed from, the institutional
+derived data used in the original analysis, the institutional
 country lists used by the governance classifier, and the 19 article figures.
 
 **Raw AIS data.** The 2024 AIS trajectories, port calls, vessel particulars and
@@ -80,7 +86,7 @@ Stage inputs fall into two groups:
 | A (licensed data) | 01, 02b, 02, 03, 03f, 03e, 03b, 03c | raw AIS export | needs `GSC_RAW_DATA_ROOT` and the Chuanshibao licence |
 | B (archived data) | 04, 08, 05, 05b–05e, 06, 09, 12–19 | `data/derived/**` | runs as shipped; this is the peer-review path |
 
-Stages in B regenerate every quantitative result in the paper from the
+Stages in B regenerate the original submission results from the
 archived tables. Stage A rebuilds the derived tables from raw AIS for users
 holding the licence. The full step-by-step protocol is in
 [docs/REPRODUCE.md](docs/REPRODUCE.md).
@@ -103,9 +109,10 @@ archived file is in [data/README.md](data/README.md).
 ## Institutional lists
 
 `data/institutional_lists/` ships the exact country sets used by the
-governance classifier (`EU/EEA member states`, the `59 Belt and Road maritime
-partner countries`), as hard-coded in the pipeline, with the official sources
-they were compiled from. See the README in that folder.
+governance classifier (EU/EEA states and the 59-code BRI infrastructure scenario). The revised
+analysis treats the latter as a modeling assumption and repeats the comparison
+with 56 codes. The category counts and emission shares for both are in
+[the R1 footprint table](revisions/r1/EF-R1/analysis/results/R1_footprint_shares.csv).
 
 ## Software
 
@@ -127,7 +134,7 @@ If you use this code or data, please cite the manuscript and this archive:
 
 > Wang, M. (2026). *Competing Rules, Shared Seas: The Geopolitics of Green
 > Shipping Corridor Investment.* Earth’s Future (manuscript #2026EF010217).
-> Analysis code and derived data: peer-review archive, `CITATION.cff`.
+> Analysis code and derived data, version ef-r1. See [CITATION.cff](CITATION.cff).
 
 ## Contact
 

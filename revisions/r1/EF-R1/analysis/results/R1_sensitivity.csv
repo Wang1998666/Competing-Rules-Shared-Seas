@@ -1,0 +1,15 @@
+global_Mt,n_ports,n_corridors,cost_MUSD,primary_value,primary_gap,final_gap,status,experiment,scope,value
+85.59056663713334,111,1493,1534.4374091872864,85.59056663713334,2.3845269471745496e-07,2.3845269471745496e-07,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,G,0.1
+47.0307148619519,98,1016,1534.385910127626,21.137006169658232,0.0,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,EU,0.1
+40.8287504532612,121,1485,1534.4657921349246,40.8287504532612,0.0,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,BRI,0.1
+100.49244937656299,212,2763,3070.1052150152,100.49244937656297,0.0,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,G,0.2
+52.45892390138659,182,1762,3069.9031626365972,22.171581476365137,0.0,1.5496284662769517e-06,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,EU,0.2
+42.63785123407508,228,2350,3069.1832584623426,42.63785123407507,0.0,5.469898989395422e-06,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,BRI,0.2
+105.05970015563705,309,3687,4604.5885131725,105.05970015563705,0.0,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,G,0.3
+52.772830665121326,259,2107,4603.584591911709,22.274991009844666,0.0,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,EU,0.3
+42.987688794534385,329,2790,4603.449427898209,42.98768879453439,9.57644860706041e-07,2.0534601700173384e-06,Optimization terminated successfully. (HiGHS Status 7: Optimal),budget,BRI,0.3
+106.9153523096117,407,4499,3070.2346326083934,106.9153523096117,0.0,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),fixed_absolute_budget_cost_scale,G,0.5
+100.49244937656299,212,2763,3070.1052150152,100.49244937656297,0.0,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),fixed_absolute_budget_cost_scale,G,1
+85.59056663713334,111,1493,3068.874818374573,85.59056663713334,1.269556543677232e-07,1.269556543677232e-07,Optimization terminated successfully. (HiGHS Status 7: Optimal),fixed_absolute_budget_cost_scale,G,2
+37.36557914539986,226,2105,3070.236406843167,37.36557914539987,0.0,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),narrower_network,closed,exclude IT TW IN
+96.80931937086508,219,2894,3070.16527865166,76.84989667894926,6.897471917090729e-07,7.636884583955821e-06,Optimization terminated successfully. (HiGHS Status 7: Optimal),narrower_network,open,exclude IT TW IN

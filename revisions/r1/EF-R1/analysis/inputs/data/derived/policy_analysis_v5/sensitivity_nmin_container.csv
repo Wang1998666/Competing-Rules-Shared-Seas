@@ -1,0 +1,4 @@
+n_min,n_corridors,emission_Mt,emission_coverage_pct,EU_ETS_share_pct,BRI_only_share_pct,FuelEU_exposed_share_pct,Vacuum_share_pct,RVI_any_pct,RVI_strict_pct,obj_20pct_Mt,ports_20pct,corr_20pct
+4,7769,206.4,100.0,20.9,58.0,13.8,7.3,7.3,6.4,,,
+8,6001,198.2,96.1,20.7,57.9,13.9,7.5,7.5,6.7,97.04,213.0,2318.0
+16,4637,186.4,90.3,20.4,57.8,14.1,7.7,7.7,7.0,92.11,214.0,1950.0

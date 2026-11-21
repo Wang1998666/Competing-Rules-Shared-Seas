@@ -1,0 +1,13 @@
+definition,gov_type,n_corridors,emission_Mt,emission_share_pct
+pressure_field_tau0.3,EU_ETS,1730,43.03,20.9
+pressure_field_tau0.3,BRI_only,4077,119.69,58.0
+pressure_field_tau0.3,FuelEU_exposed,1119,28.56,13.8
+pressure_field_tau0.3,Vacuum,843,15.09,7.3
+pressure_field_tau0.3,RVI_strict,159,13.21,6.4
+pressure_field_tau0.3,RVI_any,843,15.09,7.3
+endpoint_based,EU_ETS,1730,43.03,20.9
+endpoint_based,BRI_only,4077,119.69,58.0
+endpoint_based,FuelEU_exposed,0,0.0,0.0
+endpoint_based,Vacuum,1962,43.64,21.1
+endpoint_based,RVI_strict,497,37.84,18.3
+endpoint_based,RVI_any,1962,43.64,21.1

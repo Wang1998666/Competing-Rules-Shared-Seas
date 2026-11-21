@@ -1,0 +1,45 @@
+{'global_Mt': 85.59056663713334, 'n_ports': 111, 'n_corridors': 1493, 'cost_MUSD': 1534.4374091872864, 'primary_value': 85.59056663713334, 'primary_gap': 2.3845269471745496e-07, 'final_gap': 2.3845269471745496e-07, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'G', 'value': 0.1}
+{'global_Mt': 47.0307148619519, 'n_ports': 98, 'n_corridors': 1016, 'cost_MUSD': 1534.385910127626, 'primary_value': 21.137006169658232, 'primary_gap': 0.0, 'final_gap': 0.0, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'EU', 'value': 0.1}
+{'global_Mt': 40.8287504532612, 'n_ports': 121, 'n_corridors': 1485, 'cost_MUSD': 1534.4657921349246, 'primary_value': 40.8287504532612, 'primary_gap': 0.0, 'final_gap': 0.0, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'BRI', 'value': 0.1}
+{'global_Mt': 100.49244937656299, 'n_ports': 212, 'n_corridors': 2763, 'cost_MUSD': 3070.1052150152, 'primary_value': 100.49244937656297, 'primary_gap': 0.0, 'final_gap': 0.0, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'G', 'value': 0.2}
+{'global_Mt': 52.45892390138659, 'n_ports': 182, 'n_corridors': 1762, 'cost_MUSD': 3069.9031626365972, 'primary_value': 22.171581476365137, 'primary_gap': 0.0, 'final_gap': 1.5496284662769517e-06, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'EU', 'value': 0.2}
+{'global_Mt': 42.63785123407508, 'n_ports': 228, 'n_corridors': 2350, 'cost_MUSD': 3069.1832584623426, 'primary_value': 42.63785123407507, 'primary_gap': 0.0, 'final_gap': 5.469898989395422e-06, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'BRI', 'value': 0.2}
+{'global_Mt': 105.05970015563705, 'n_ports': 309, 'n_corridors': 3687, 'cost_MUSD': 4604.5885131725, 'primary_value': 105.05970015563705, 'primary_gap': 0.0, 'final_gap': 0.0, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'G', 'value': 0.3}
+{'global_Mt': 52.772830665121326, 'n_ports': 259, 'n_corridors': 2107, 'cost_MUSD': 4603.584591911709, 'primary_value': 22.274991009844666, 'primary_gap': 0.0, 'final_gap': 0.0, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'EU', 'value': 0.3}
+{'global_Mt': 42.987688794534385, 'n_ports': 329, 'n_corridors': 2790, 'cost_MUSD': 4603.449427898209, 'primary_value': 42.98768879453439, 'primary_gap': 9.57644860706041e-07, 'final_gap': 2.0534601700173384e-06, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'experiment': 'budget', 'scope': 'BRI', 'value': 0.3}
+PRICE 700 100 constrained 0.0
+PRICE 700 100 unconstrained 0.0
+PRICE 700 380 constrained 93.67846872276188
+PRICE 700 380 unconstrained 93.67846872276188
+PRICE 700 700 constrained 100.49244937656299
+PRICE 700 700 unconstrained 104.0687463280203
+PRICE 700 1000 constrained 100.49244937656299
+PRICE 700 1000 unconstrained 105.68825101208797
+PRICE 700 2000 constrained 100.49244937656299
+PRICE 700 2000 unconstrained 107.53893104448392
+PRICE 700 5000 constrained 100.49244937656299
+PRICE 700 5000 unconstrained 108.27919829607971
+PRICE 1200 100 constrained 0.0
+PRICE 1200 100 unconstrained 0.0
+PRICE 1200 380 constrained 0.0
+PRICE 1200 380 unconstrained 0.0
+PRICE 1200 700 constrained 86.67741207225656
+PRICE 1200 700 unconstrained 86.67741207225656
+PRICE 1200 1000 constrained 100.49244937656299
+PRICE 1200 1000 unconstrained 103.57479224695038
+PRICE 1200 2000 constrained 100.49244937656299
+PRICE 1200 2000 unconstrained 107.1759580380476
+PRICE 1200 5000 constrained 100.49244937656299
+PRICE 1200 5000 unconstrained 108.25798196956666
+PRICE 1700 100 constrained 0.0
+PRICE 1700 100 unconstrained 0.0
+PRICE 1700 380 constrained 0.0
+PRICE 1700 380 unconstrained 0.0
+PRICE 1700 700 constrained 0.0
+PRICE 1700 700 unconstrained 0.0
+PRICE 1700 1000 constrained 47.41745446152899
+PRICE 1700 1000 unconstrained 47.41745446152899
+PRICE 1700 2000 constrained 100.49244937656299
+PRICE 1700 2000 unconstrained 106.48705939228871
+PRICE 1700 5000 constrained 100.49244937656299
+PRICE 1700 5000 unconstrained 108.21040048911611

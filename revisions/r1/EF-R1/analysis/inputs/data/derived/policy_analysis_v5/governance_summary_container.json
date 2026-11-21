@@ -1,0 +1,47 @@
+{
+  "version": "v2",
+  "n_corridors": 7769,
+  "total_emission_Mt": 206.36,
+  "p75_Ee_t": 17312.1,
+  "governance_types": {
+    "BRI_only": {
+      "n_corridors": 4077,
+      "emission_Mt": 119.68665039585518,
+      "emission_share_pct": 58.000336368476546
+    },
+    "EU_ETS": {
+      "n_corridors": 1730,
+      "emission_Mt": 43.02676583761025,
+      "emission_share_pct": 20.850837442397776
+    },
+    "FuelEU_exposed": {
+      "n_corridors": 1119,
+      "emission_Mt": 28.55622568994303,
+      "emission_share_pct": 13.838391248755212
+    },
+    "Vacuum": {
+      "n_corridors": 843,
+      "emission_Mt": 15.08545511514158,
+      "emission_share_pct": 7.3104349403704845
+    }
+  },
+  "RVI_any_pct": 7.3,
+  "RVI_strict_pct": 6.4,
+  "n_vacuum_highE": 159,
+  "top25pct_vacuum_share_pct": 8.2,
+  "bri_euets_cov_pct": 19.9,
+  "nonbri_euets_cov_pct": 26.7,
+  "n_fueleu_exposed": 3511,
+  "total_activated_abatement_Mt": 100.43,
+  "top20_hub_HCS_pct": 51.5,
+  "camp_control": {
+    "BRI": 53.44227274461617,
+    "EU": 11.280447550642233,
+    "Other": 35.2772797047416
+  },
+  "camp_selection": {
+    "BRI": 6.0,
+    "EU": 1.8,
+    "Other": 4.4
+  }
+}

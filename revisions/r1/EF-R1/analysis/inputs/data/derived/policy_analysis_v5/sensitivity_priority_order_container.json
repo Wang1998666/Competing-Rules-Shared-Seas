@@ -1,0 +1,58 @@
+{
+  "runs": [
+    {
+      "order": "EU>BRI>FuelEU (ref)",
+      "EU_ETS_n": 1730,
+      "EU_ETS_share_pct": 20.9,
+      "BRI_only_n": 4077,
+      "BRI_only_share_pct": 58.0,
+      "FuelEU_exposed_n": 1119,
+      "FuelEU_exposed_share_pct": 13.8,
+      "Vacuum_n": 843,
+      "Vacuum_share_pct": 7.3,
+      "RVI_any_pct": 7.3,
+      "RVI_strict_pct": 6.4
+    },
+    {
+      "order": "BRI>EU>FuelEU",
+      "EU_ETS_n": 716,
+      "EU_ETS_share_pct": 4.7,
+      "BRI_only_n": 5091,
+      "BRI_only_share_pct": 74.2,
+      "FuelEU_exposed_n": 1119,
+      "FuelEU_exposed_share_pct": 13.8,
+      "Vacuum_n": 843,
+      "Vacuum_share_pct": 7.3,
+      "RVI_any_pct": 7.3,
+      "RVI_strict_pct": 6.4
+    },
+    {
+      "order": "EU>FuelEU>BRI",
+      "EU_ETS_n": 1730,
+      "EU_ETS_share_pct": 20.9,
+      "BRI_only_n": 3344,
+      "BRI_only_share_pct": 40.3,
+      "FuelEU_exposed_n": 1852,
+      "FuelEU_exposed_share_pct": 31.6,
+      "Vacuum_n": 843,
+      "Vacuum_share_pct": 7.3,
+      "RVI_any_pct": 7.3,
+      "RVI_strict_pct": 6.4
+    },
+    {
+      "order": "FuelEU>EU>BRI",
+      "EU_ETS_n": 71,
+      "EU_ETS_share_pct": 1.3,
+      "BRI_only_n": 3344,
+      "BRI_only_share_pct": 40.3,
+      "FuelEU_exposed_n": 3511,
+      "FuelEU_exposed_share_pct": 51.1,
+      "Vacuum_n": 843,
+      "Vacuum_share_pct": 7.3,
+      "RVI_any_pct": 7.3,
+      "RVI_strict_pct": 6.4
+    }
+  ],
+  "vacuum_set_invariant": true,
+  "note": "The vacuum set (RE_e = 0) is order-invariant by construction, so the RVI is identical under all orders. The rule-sphere MILP domains are likewise unaffected: the EU scope uses the ETS exposure weight (w_e > 0) and the BRI scope uses membership flags, neither of which involves the mutually exclusive types. Only the descriptive split of the overlapping corridors (1,014 BRI-and-ETS lanes) moves between the EU_ETS and BRI_only labels."
+}

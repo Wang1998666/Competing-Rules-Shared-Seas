@@ -1,0 +1,29 @@
+{
+  "model": "M_BRI_control (objective-only, domain free)",
+  "budget_fraction": 0.2,
+  "fuel": "green_methanol",
+  "baseline_global_Mt": 100.43,
+  "objective_value_bri_Mt": 80.66,
+  "solver_convention": {
+    "global_W_Mt": 80.66,
+    "MPC_pct": 19.69
+  },
+  "maximal_activation": {
+    "n_activated": 3003,
+    "global_W_Mt": 97.25200167277664,
+    "bri_scope_W_Mt": 80.65811308723065,
+    "bri_share_pct": 82.08458208458208
+  },
+  "MPC_maximal_pct": 3.16,
+  "n_ports_selected": 217,
+  "n_ports_bri": 133,
+  "n_ports_non_bri": 84,
+  "domain_restricted_M_BRI": {
+    "global_W_Mt": 42.64,
+    "MPC_pct": 57.54
+  },
+  "decomposition_solver_convention_pct": {
+    "objective_restriction_cost": 19.69,
+    "domain_restriction_cost": 37.85
+  }
+}

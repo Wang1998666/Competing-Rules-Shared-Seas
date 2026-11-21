@@ -1,0 +1,9 @@
+{
+  "n_mc": 500,
+  "abatement_mean_Mt": 100.78,
+  "abatement_median_Mt": 100.26,
+  "ci95_lower_Mt": 92.11,
+  "ci95_upper_Mt": 109.67,
+  "cv_pct": 5.31,
+  "point_estimate_Mt": 100.43
+}

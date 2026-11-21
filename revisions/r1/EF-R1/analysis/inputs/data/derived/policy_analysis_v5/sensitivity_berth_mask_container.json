@@ -1,0 +1,57 @@
+{
+  "variants": [
+    {
+      "mask": "baseline_eq18",
+      "n_feasible_ports": 944,
+      "cost_pool_MUSD_yr": 15351.2,
+      "obj_10pct_Mt": 85.59,
+      "ports_10pct": 111,
+      "corr_10pct": 1493,
+      "jaccard_10pct": 1.0,
+      "obj_20pct_Mt": 100.49,
+      "ports_20pct": 212,
+      "corr_20pct": 2763,
+      "jaccard_20pct": 1.0
+    },
+    {
+      "mask": "no_mask",
+      "n_feasible_ports": 1051,
+      "cost_pool_MUSD_yr": 17087.9,
+      "obj_10pct_Mt": 88.42,
+      "ports_10pct": 121,
+      "corr_10pct": 1663,
+      "jaccard_10pct": 0.917,
+      "obj_20pct_Mt": 101.96,
+      "ports_20pct": 236,
+      "corr_20pct": 3050,
+      "jaccard_20pct": 0.898
+    },
+    {
+      "mask": "berths_ge1",
+      "n_feasible_ports": 539,
+      "cost_pool_MUSD_yr": 8207.4,
+      "obj_10pct_Mt": 67.4,
+      "ports_10pct": 65,
+      "corr_10pct": 839,
+      "jaccard_10pct": 0.586,
+      "obj_20pct_Mt": 87.32,
+      "ports_20pct": 118,
+      "corr_20pct": 1630,
+      "jaccard_20pct": 0.557
+    },
+    {
+      "mask": "berths_ge3",
+      "n_feasible_ports": 305,
+      "cost_pool_MUSD_yr": 4330.8,
+      "obj_10pct_Mt": 45.58,
+      "ports_10pct": 36,
+      "corr_10pct": 401,
+      "jaccard_10pct": 0.324,
+      "obj_20pct_Mt": 69.01,
+      "ports_20pct": 67,
+      "corr_20pct": 859,
+      "jaccard_20pct": 0.316
+    }
+  ],
+  "note": "Baseline is the Eq. 18 screen (container berth OR >=24 annual calls fallback). berths_ge1 drops the calls-based fallback; berths_ge3 is a stricter physical screen; no_mask admits all candidates. The budget is a fixed fraction of each variant's own cost pool, so the comparison isolates the composition of the feasible set, not its size."
+}

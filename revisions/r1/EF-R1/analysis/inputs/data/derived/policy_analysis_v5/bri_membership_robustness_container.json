@@ -1,0 +1,112 @@
+{
+  "reference": {
+    "bri_emission_share_pct": 74.15610946889547,
+    "n_bri_corridors": 5091,
+    "n_bri_ets_overlap": 1014,
+    "gov_shares_pct": {
+      "EU_ETS": 20.850837442397776,
+      "BRI_only": 58.000336368476546,
+      "FuelEU_exposed": 13.838391248755212,
+      "Vacuum": 7.3104349403704845
+    },
+    "rvi_any_pct": 7.3104349403704845,
+    "rvi_strict_pct": 6.401638475970837,
+    "n_vacuum_highE": 159,
+    "n_type_changed_corridors": 0,
+    "emission_of_changed_pct": 0.0
+  },
+  "ex_Italy": {
+    "bri_emission_share_pct": 73.66045459029324,
+    "n_bri_corridors": 4943,
+    "n_bri_ets_overlap": 866,
+    "gov_shares_pct": {
+      "EU_ETS": 20.850837442397776,
+      "BRI_only": 58.000336368476546,
+      "FuelEU_exposed": 13.838391248755212,
+      "Vacuum": 7.3104349403704845
+    },
+    "rvi_any_pct": 7.3104349403704845,
+    "rvi_strict_pct": 6.401638475970837,
+    "n_vacuum_highE": 159,
+    "n_type_changed_corridors": 0,
+    "emission_of_changed_pct": 0.0
+  },
+  "ex_Italy_TW": {
+    "bri_emission_share_pct": 71.90354280351286,
+    "n_bri_corridors": 4871,
+    "n_bri_ets_overlap": 866,
+    "gov_shares_pct": {
+      "EU_ETS": 20.850837442397776,
+      "BRI_only": 56.24342458169617,
+      "FuelEU_exposed": 14.150712823685632,
+      "Vacuum": 8.75502515222044
+    },
+    "rvi_any_pct": 8.75502515222044,
+    "rvi_strict_pct": 7.756079387848129,
+    "n_vacuum_highE": 194,
+    "n_type_changed_corridors": 72,
+    "emission_of_changed_pct": 1.756911786780377
+  },
+  "corridors_losing_bri_flag": {
+    "n": 220,
+    "emission_share_pct": 2.2525666653825667,
+    "top_examples": [
+      {
+        "origin": "TWKAO",
+        "dest": "USLGB",
+        "o_country": "TW",
+        "d_country": "US",
+        "emission_t": 443418.8685929173
+      },
+      {
+        "origin": "MXMAN",
+        "dest": "TWKAO",
+        "o_country": "MX",
+        "d_country": "TW",
+        "emission_t": 221463.45338143603
+      },
+      {
+        "origin": "TWKEE",
+        "dest": "USLSA",
+        "o_country": "TW",
+        "d_country": "US",
+        "emission_t": 199180.87056940462
+      },
+      {
+        "origin": "AUBRI",
+        "dest": "TWKAO",
+        "o_country": "AU",
+        "d_country": "TW",
+        "emission_t": 197356.04412103118
+      },
+      {
+        "origin": "TWKAO",
+        "dest": "USOAK",
+        "o_country": "TW",
+        "d_country": "US",
+        "emission_t": 184809.8879845162
+      },
+      {
+        "origin": "TWKEE",
+        "dest": "USOAK",
+        "o_country": "TW",
+        "d_country": "US",
+        "emission_t": 181263.09483825756
+      },
+      {
+        "origin": "AUMEL",
+        "dest": "TWKAO",
+        "o_country": "AU",
+        "d_country": "TW",
+        "emission_t": 171411.49501205358
+      },
+      {
+        "origin": "PABAL",
+        "dest": "TWKAO",
+        "o_country": "PA",
+        "d_country": "TW",
+        "emission_t": 140956.45821359556
+      }
+    ]
+  }
+}

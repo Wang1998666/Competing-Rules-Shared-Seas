@@ -1,0 +1,2 @@
+vessel_type,version,n_vessels,n_legs,n_od_pairs,total_emission_tco2e,mean_leg_emission,mean_load_factor,emission_weighted_load_factor,ballast_fraction,aux_fraction,port_uplift,ef_eta,traj_leg_fraction,traj_emission_fraction
+container,v5,7256,674055,20779,216231092.6414998,320.7914675234214,0.2966892257708433,0.4045894612364346,0.0,0.15,0.05,0.5,0.9923225849522666,0.9977059677308395

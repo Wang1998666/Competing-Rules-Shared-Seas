@@ -1,0 +1,9 @@
+scenario,group,corridors,annual_emissions_Mt_CO2e,share_of_corridor_emissions_pct
+reference_59,EU-connected,1730,43.02676584,20.85083744
+reference_59,BRI-only,4077,119.68665040,58.00033637
+reference_59,Near-EU,1119,28.55622569,13.83839125
+reference_59,Outside footprints,843,15.08545512,7.31043494
+narrow_56,EU-connected,1730,43.02676584,20.85083744
+narrow_56,BRI-only,3908,112.29712774,54.41936223
+narrow_56,Near-EU,1180,32.60495096,15.80040979
+narrow_56,Outside footprints,951,18.42625251,8.92939054

@@ -1,0 +1,5 @@
+order,EU_ETS_n,EU_ETS_share_pct,BRI_only_n,BRI_only_share_pct,FuelEU_exposed_n,FuelEU_exposed_share_pct,Vacuum_n,Vacuum_share_pct,RVI_any_pct,RVI_strict_pct
+EU>BRI>FuelEU (ref),1730,20.9,4077,58.0,1119,13.8,843,7.3,7.3,6.4
+BRI>EU>FuelEU,716,4.7,5091,74.2,1119,13.8,843,7.3,7.3,6.4
+EU>FuelEU>BRI,1730,20.9,3344,40.3,1852,31.6,843,7.3,7.3,6.4
+FuelEU>EU>BRI,71,1.3,3344,40.3,3511,51.1,843,7.3,7.3,6.4

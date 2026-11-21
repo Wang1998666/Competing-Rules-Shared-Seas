@@ -1,0 +1,4 @@
+panel,region,west,east,south,north,scale_bar_km
+b,Europe,-16,39,25,69,500
+c,Malacca Strait,92,117,-6,14,250
+d,East Asia,111,143,18,43.6,300

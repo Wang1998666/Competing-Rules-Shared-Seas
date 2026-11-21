@@ -1,0 +1,5 @@
+fuel,budget_fraction,n_ports,n_corridors,abatement_Mt,status
+LNG,0.05,60,753,11.12,Optimal
+LNG,0.1,112,1519,14.58,Optimal
+LNG,0.2,212,2785,17.14,Optimal
+LNG,0.3,309,3710,17.93,Optimal

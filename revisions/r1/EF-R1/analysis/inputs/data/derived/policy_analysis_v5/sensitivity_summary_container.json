@@ -1,0 +1,219 @@
+{
+  "version": "v4-sensitivity",
+  "vessel_type": "container",
+  "fuel": "green_methanol",
+  "budget_fraction": 0.2,
+  "baseline_MG_Mt": 100.43,
+  "note_tau": "tau changes the governance classification statistics only; the MILP family does not depend on tau (EU rule uses the ETS endpoint rule, BRI rule uses country membership).",
+  "note_alpha": "uniform alpha replacement is a non-uniform rescaling of W_e per corridor (alpha_e is corridor-specific in the baseline); a HOMOGENEOUS rescaling of all alpha_e by a constant leaves the optimal y,z unchanged and scales abatement linearly, by linear homogeneity of the objective in W_e.",
+  "tau_rows": [
+    {
+      "tau": 0.1,
+      "n_fueleu_exposed": 1794,
+      "n_vacuum": 168,
+      "n_vacuum_highE": 36,
+      "RVI_strict_pct": 0.9,
+      "RVI_any_pct": 1.1
+    },
+    {
+      "tau": 0.3,
+      "n_fueleu_exposed": 1119,
+      "n_vacuum": 843,
+      "n_vacuum_highE": 159,
+      "RVI_strict_pct": 6.4,
+      "RVI_any_pct": 7.3
+    },
+    {
+      "tau": 0.5,
+      "n_fueleu_exposed": 885,
+      "n_vacuum": 1077,
+      "n_vacuum_highE": 224,
+      "RVI_strict_pct": 9.3,
+      "RVI_any_pct": 10.7
+    }
+  ],
+  "ets_rows": [
+    {
+      "gamma": 0.5,
+      "ets_price_usd": 60.0,
+      "obj_global_Mt": 96.14,
+      "n_ports": 241,
+      "n_corridors": 2889,
+      "n_forced": 100,
+      "recycle_MUSD": 713.8,
+      "MPC_global_pct": 4.27
+    },
+    {
+      "gamma": 0.5,
+      "ets_price_usd": 80.0,
+      "obj_global_Mt": 98.25,
+      "n_ports": 259,
+      "n_corridors": 3147,
+      "n_forced": 100,
+      "recycle_MUSD": 966.7,
+      "MPC_global_pct": 2.17
+    },
+    {
+      "gamma": 0.5,
+      "ets_price_usd": 100.0,
+      "obj_global_Mt": 99.99,
+      "n_ports": 275,
+      "n_corridors": 3316,
+      "n_forced": 100,
+      "recycle_MUSD": 1211.2,
+      "MPC_global_pct": 0.43
+    },
+    {
+      "gamma": 0.5,
+      "ets_price_usd": 120.0,
+      "obj_global_Mt": 101.46,
+      "n_ports": 288,
+      "n_corridors": 3455,
+      "n_forced": 100,
+      "recycle_MUSD": 1459.2,
+      "MPC_global_pct": -1.03
+    },
+    {
+      "gamma": 1.0,
+      "ets_price_usd": 60.0,
+      "obj_global_Mt": 101.46,
+      "n_ports": 288,
+      "n_corridors": 3455,
+      "n_forced": 100,
+      "recycle_MUSD": 1459.2,
+      "MPC_global_pct": -1.03
+    },
+    {
+      "gamma": 1.0,
+      "ets_price_usd": 80.0,
+      "obj_global_Mt": 103.55,
+      "n_ports": 322,
+      "n_corridors": 3821,
+      "n_forced": 100,
+      "recycle_MUSD": 1967.9,
+      "MPC_global_pct": -3.11
+    },
+    {
+      "gamma": 1.0,
+      "ets_price_usd": 100.0,
+      "obj_global_Mt": 104.96,
+      "n_ports": 355,
+      "n_corridors": 4140,
+      "n_forced": 100,
+      "recycle_MUSD": 2481.0,
+      "MPC_global_pct": -4.51
+    },
+    {
+      "gamma": 1.0,
+      "ets_price_usd": 120.0,
+      "obj_global_Mt": 105.96,
+      "n_ports": 386,
+      "n_corridors": 4407,
+      "n_forced": 100,
+      "recycle_MUSD": 3008.6,
+      "MPC_global_pct": -5.51
+    }
+  ],
+  "uniform_cost_rows": [
+    {
+      "budget_fraction": 0.05,
+      "budget_MUSD": 769.4,
+      "n_ports": 47,
+      "n_corridors": 546,
+      "abatement_Mt": 57.18,
+      "abatement_Mt_hetero": 65.34,
+      "n_ports_hetero": 60,
+      "status": "Optimal"
+    },
+    {
+      "budget_fraction": 0.1,
+      "budget_MUSD": 1538.7,
+      "n_ports": 94,
+      "n_corridors": 1239,
+      "abatement_Mt": 80.9,
+      "abatement_Mt_hetero": 85.59,
+      "n_ports_hetero": 111,
+      "status": "Optimal"
+    },
+    {
+      "budget_fraction": 0.2,
+      "budget_MUSD": 3077.4,
+      "n_ports": 188,
+      "n_corridors": 2474,
+      "abatement_Mt": 98.4,
+      "abatement_Mt_hetero": 100.43,
+      "n_ports_hetero": 211,
+      "status": "Optimal"
+    },
+    {
+      "budget_fraction": 0.3,
+      "budget_MUSD": 4616.2,
+      "n_ports": 283,
+      "n_corridors": 3429,
+      "abatement_Mt": 104.3,
+      "abatement_Mt_hetero": 105.02,
+      "n_ports_hetero": 308,
+      "status": "Optimal"
+    }
+  ],
+  "alpha_rows": [
+    {
+      "alpha_e": 0.3,
+      "budget_fraction": 0.2,
+      "n_ports": 213,
+      "n_corridors": 2929,
+      "abatement_Mt": 44.75,
+      "status": "Optimal"
+    },
+    {
+      "alpha_e": 0.5,
+      "budget_fraction": 0.2,
+      "n_ports": 213,
+      "n_corridors": 2929,
+      "abatement_Mt": 74.58,
+      "status": "Optimal"
+    },
+    {
+      "alpha_e": 0.7,
+      "budget_fraction": 0.2,
+      "n_ports": 213,
+      "n_corridors": 2929,
+      "abatement_Mt": 104.42,
+      "status": "Optimal"
+    }
+  ],
+  "lng_rows": [
+    {
+      "fuel": "LNG",
+      "budget_fraction": 0.05,
+      "n_ports": 60,
+      "n_corridors": 753,
+      "abatement_Mt": 11.12,
+      "status": "Optimal"
+    },
+    {
+      "fuel": "LNG",
+      "budget_fraction": 0.1,
+      "n_ports": 112,
+      "n_corridors": 1519,
+      "abatement_Mt": 14.58,
+      "status": "Optimal"
+    },
+    {
+      "fuel": "LNG",
+      "budget_fraction": 0.2,
+      "n_ports": 212,
+      "n_corridors": 2785,
+      "abatement_Mt": 17.14,
+      "status": "Optimal"
+    },
+    {
+      "fuel": "LNG",
+      "budget_fraction": 0.3,
+      "n_ports": 309,
+      "n_corridors": 3710,
+      "abatement_Mt": 17.93,
+      "status": "Optimal"
+    }
+  ]
+}

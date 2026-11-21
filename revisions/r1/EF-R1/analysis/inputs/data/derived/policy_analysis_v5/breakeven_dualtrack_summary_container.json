@@ -1,0 +1,61 @@
+{
+  "fuel": "green_methanol",
+  "true_full_cost_MUSD": 15351.2,
+  "standalone_sum_MUSD": 114802.5,
+  "allocated_sum_MUSD": 13402.0,
+  "unallocated_residual_MUSD": 1949.2,
+  "n_unallocated_ports": 106,
+  "double_counting_factor_standalone": 7.48,
+  "dC_fuel_total_MUSD": 53713.1,
+  "tracks": {
+    "standalone": {
+      "n": 6548,
+      "median": 8053.11116213979,
+      "p25": 2059.045375267799,
+      "p75": 37324.157680437405,
+      "share_le_380": 0.002748930971288943,
+      "share_le_1000": 0.12003665241295051,
+      "share_le_5000": 0.4160048869883934
+    },
+    "allocated": {
+      "n": 6548,
+      "median": 1082.4975361786219,
+      "p25": 548.7746134588342,
+      "p75": 2956.0885603894603,
+      "share_le_380": 0.0673488087965791,
+      "share_le_1000": 0.4802993280390959,
+      "share_le_5000": 0.8332315210751374
+    },
+    "fuel_only": {
+      "n": 6548,
+      "median": 527.9941116990555,
+      "p25": 357.4930986926179,
+      "p75": 982.069047760243,
+      "share_le_380": 0.28833231521075137,
+      "share_le_1000": 0.7533598045204642,
+      "share_le_5000": 0.9639584605986561
+    }
+  },
+  "by_gov_type": {
+    "BRI_only": {
+      "standalone_median": 6378.349533536818,
+      "allocated_median": 849.6666394787178,
+      "fuel_only_median": 443.5150538272066
+    },
+    "EU_ETS": {
+      "standalone_median": 10949.305547143842,
+      "allocated_median": 1589.1720705368523,
+      "fuel_only_median": 791.9911675485829
+    },
+    "FuelEU_exposed": {
+      "standalone_median": 6536.556670074876,
+      "allocated_median": 1174.2867654211668,
+      "fuel_only_median": 641.5834264546851
+    },
+    "Vacuum": {
+      "standalone_median": 16245.666930511909,
+      "allocated_median": 1707.475828005909,
+      "fuel_only_median": 506.87434723109317
+    }
+  }
+}

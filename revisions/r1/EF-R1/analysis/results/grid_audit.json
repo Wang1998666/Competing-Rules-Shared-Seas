@@ -1,0 +1,10 @@
+{
+  "n_cells": 911044,
+  "columns": [
+    "h3_id",
+    "emission_tco2e",
+    "lat",
+    "lon",
+    "resolution"
+  ]
+}

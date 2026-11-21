@@ -1,0 +1,7 @@
+label,eff_obj_Mt,vac_obj_Mt,vac_share_pct,n_ports,n_corr,bri_share_pct,status
+share=free,100.48,5.89,5.9,212,2802,78.9,Optimal
+share=0.80,99.96,5.41,5.4,215,2838,80.0,Optimal
+share=0.82,98.28,4.95,5.0,217,2881,82.0,Optimal
+share=0.85,94.89,4.31,4.5,217,2843,85.0,Optimal
+share=0.88,91.65,3.16,3.4,217,2799,88.0,Optimal
+share=0.90,89.62,1.81,2.0,217,2772,90.0,Optimal

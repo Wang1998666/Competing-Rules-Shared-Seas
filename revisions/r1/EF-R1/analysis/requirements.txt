@@ -1,0 +1,10 @@
+pandas==3.0.1
+numpy==2.5.5
+scipy==1.18.1
+matplotlib==3.11.2
+pyarrow==26.0.1
+pyshp==3.1.9
+h3==4.5.0
+cartopy==0.26.0
+pyproj==3.8.0
+shapely==2.2.0
